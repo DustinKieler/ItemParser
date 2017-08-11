@@ -46,15 +46,13 @@ public class Main {
 	private static void convertToJSON(ArrayList<Item> items) {
 		Gson gson = new GsonBuilder()
 						.registerTypeAdapter(ItemBonuses.class, new ExcludeZeroSerializer())
+						.disableHtmlEscaping()
 						.setPrettyPrinting()
 						.create();
 		BufferedWriter fileWriter;
 		try {
-			fileWriter = new BufferedWriter(new FileWriter(new File("output.cfg")));
-			for (Item i : items) {
-				fileWriter.write(gson.toJson(i));
-				fileWriter.newLine();
-			}
+			fileWriter = new BufferedWriter(new FileWriter(new File("output.json")));
+			fileWriter.write(gson.toJson(items));
 			fileWriter.close();	
 		} catch (IOException e) {
 			e.printStackTrace();

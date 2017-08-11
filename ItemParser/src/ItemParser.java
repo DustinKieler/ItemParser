@@ -14,8 +14,8 @@ public class ItemParser {
 				System.out.println("OK");
 			Item item = new Item.Builder()
 								.itemID(Integer.parseInt(itemDefs.remove()))
-								.name(itemDefs.remove())
-								.description(itemDefs.remove())
+								.name(itemDefs.remove().replaceAll("_", " "))
+								.description(itemDefs.remove().replaceAll("_", " "))
 								.shopPrice(Integer.parseInt(removeDecimal(itemDefs.remove()))) // Make sure this and the next two lines are ordered correctly.
 								.lowAlchPrice(Integer.parseInt(removeDecimal(itemDefs.remove())))
 								.highAlchPrice(Integer.parseInt(removeDecimal(itemDefs.remove())))
