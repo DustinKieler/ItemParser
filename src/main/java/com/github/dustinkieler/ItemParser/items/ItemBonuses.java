@@ -1,3 +1,5 @@
+package main.java.com.github.dustinkieler.itemparser.items;
+
 /**
  * Represents the equipment bonuses of an item.
  * This object is immutable after creation.

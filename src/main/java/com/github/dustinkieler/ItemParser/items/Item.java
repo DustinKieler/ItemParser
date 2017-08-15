@@ -1,3 +1,5 @@
+package main.java.com.github.dustinkieler.itemparser.items;
+
 /**
  * Represents an item which contains an item ID, name, description, prices (shop, low alchemy, high alchemy),
  * and item bonuses. This object is immutable.
