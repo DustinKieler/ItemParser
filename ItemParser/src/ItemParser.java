@@ -117,7 +117,6 @@ public class ItemParser {
             
             if (!bonuses.isEmpty()) {
                 System.out.println("-----There were not 20 elements for this item!-----");
-                return null;
             }
             
             return itemBonuses;

@@ -10,11 +10,11 @@ import java.io.File;
  *
  */
 public class Main {
-    
-	/**
-	 * Main method. See class comment for functionality of this method.
-	 * @param args is unused
-	 */
+
+    /**
+     * Main method. See class comment for functionality of this method.
+     * @param args is unused
+     */
     public static void main(String[] args) {
         ItemParser itemParser = new ItemParser(new File("item.cfg"));
         itemParser.parseItemConfig();
