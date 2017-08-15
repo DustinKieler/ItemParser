@@ -1,3 +1,5 @@
+package com.github.dustinkieler.itemparser;
+
 import java.io.File;
 
 import com.github.dustinkieler.itemparser.items.ItemParser;
