@@ -1,9 +1,26 @@
-
+/**
+ * Represents the equipment bonuses of an item.
+ * This object is immutable after creation.
+ * An item may have the following bonuses:
+ *     -Offensive/defensive stab
+ *     -Offensive/defensive slash
+ *     -Offensive/defensive crush
+ *     -Offensive/defensive magic
+ *     -Offensive/defensive ranged
+ *     -Strength
+ *     -Prayer
+ * @author Dustin Kieler
+ *
+ */
 public class ItemBonuses {
 	
-	private final int stabBonus;
-	private final int slashBonus;
-	private final int crushBonus;
+	/**
+	 * Current bonuses given to an item.
+	 * Getters are self-explanatory.
+	 */
+	private final int stabAttackBonus;
+	private final int slashAttackBonus;
+	private final int crushAttackBonus;
 	private final int magicAttackBonus;
 	private final int rangedAttackBonus;
 	private final int stabDefenceBonus;
@@ -14,16 +31,16 @@ public class ItemBonuses {
 	private final int strengthBonus;
 	private final int prayerBonus;
 	
-	public int attackBonus() {
-		return stabBonus;
+	public int stabAttackBonus() {
+		return stabAttackBonus;
 	}
 	
-	public int slashBonus() {
-		return slashBonus;
+	public int slashAttackBonus() {
+		return slashAttackBonus;
 	}
 	
-	public int crushBonus() {
-		return crushBonus;
+	public int crushAttackBonus() {
+		return crushAttackBonus;
 	}
 	
 	public int magicAttackBonus() {
@@ -62,12 +79,15 @@ public class ItemBonuses {
 		return prayerBonus;
 	}
 	
+	/**
+	 * Returns a {@link String} of the bonuses separated by a space.
+	 */
 	@Override
 	public String toString() {
 		return new StringBuilder()
-				.append(stabBonus).append(" ")
-				.append(slashBonus).append(" ")
-				.append(crushBonus).append(" ")
+				.append(stabAttackBonus).append(" ")
+				.append(slashAttackBonus).append(" ")
+				.append(crushAttackBonus).append(" ")
 				.append(magicAttackBonus).append(" ")
 				.append(rangedAttackBonus).append(" ")
 				.append(stabDefenceBonus).append(" ")
@@ -80,7 +100,12 @@ public class ItemBonuses {
 				.toString();
 	}
 	
-	public static class Builder {
+	/**
+	 * A Builder used to produce the immutable {@link ItemBonuses}.
+	 * @author Dustin Kieler
+	 *
+	 */
+	public static class ItemBonusesBuilder {
 		private int stabBonus;
 		private int slashBonus;
 		private int crushBonus;
@@ -94,76 +119,144 @@ public class ItemBonuses {
 		private int strengthBonus;
 		private int prayerBonus;
 		
-		public Builder stabBonus(int stabBonus) {
+		/**
+		 * Sets the offensive stab bonus of the {@link ItemBonuses} being constructed.
+		 * @param stabBonus The offensive stab bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */		
+		public ItemBonusesBuilder stabBonus(int stabBonus) {
 			this.stabBonus = stabBonus;
 			return this;
 		}
 		
-		public Builder slashBonus(int slashBonus) {
+		/**
+		 * Sets the offensive slash bonus of the {@link ItemBonuses} being constructed.
+		 * @param slashBonus The offensive slash bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder slashBonus(int slashBonus) {
 			this.slashBonus = slashBonus;
 			return this;
 		}
 		
-		public Builder crushBonus(int crushBonus) {
+		/**
+		 * Sets the offensive crush bonus of the {@link ItemBonuses} being constructed.
+		 * @param crushBonus The offensive crush bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder crushBonus(int crushBonus) {
 			this.crushBonus = crushBonus;
 			return this;
 		}
 		
-		public Builder magicAttackBonus(int magicAttackBonus) {
+		/**
+		 * Sets the offensive magic bonus of the {@link ItemBonuses} being constructed.
+		 * @param magicAttackBonus The offensive magic bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder magicAttackBonus(int magicAttackBonus) {
 			this.magicAttackBonus = magicAttackBonus;
 			return this;
 		}
 		
-		public Builder rangedAttackBonus(int rangedAttackBonus) {
+		/**
+		 * Sets the offensive ranged bonus of the {@link ItemBonuses} being constructed.
+		 * @param rangedAttackBonus The offensive ranged bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder rangedAttackBonus(int rangedAttackBonus) {
 			this.rangedAttackBonus = rangedAttackBonus;
 			return this;
 		}
 		
-		public Builder stabDefenceBonus(int stabDefenceBonus) {
+		/**
+		 * Sets the defensive stab bonus of the {@link ItemBonuses} being constructed.
+		 * @param stabDefenceBonus The defensive stab bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */	
+		public ItemBonusesBuilder stabDefenceBonus(int stabDefenceBonus) {
 			this.stabDefenceBonus = stabDefenceBonus;
 			return this;
 		}
 		
-		public Builder slashDefenceBonus(int slashDefenceBonus) {
+		/**
+		 * Sets the defensive slash bonus of the {@link ItemBonuses} being constructed.
+		 * @param slashDefenceBonus The defensive slash bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder slashDefenceBonus(int slashDefenceBonus) {
 			this.slashDefenceBonus = slashDefenceBonus;
 			return this;
 		}
 		
-		public Builder crushDefenceBonus(int crushDefenceBonus) {
+		/**
+		 * Sets the defensive crush bonus of the {@link ItemBonuses} being constructed.
+		 * @param crushDefenceBonus The defensive crush bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder crushDefenceBonus(int crushDefenceBonus) {
 			this.crushDefenceBonus = crushDefenceBonus;
 			return this;
 		}
 		
-		public Builder magicDefenceBonus(int magicDefenceBonus) {
+		/**
+		 * Sets the defensive magic bonus of the {@link ItemBonuses} being constructed.
+		 * @param magicDefenceBonus The defensive magic bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder magicDefenceBonus(int magicDefenceBonus) {
 			this.magicDefenceBonus = magicDefenceBonus;
 			return this;
 		}
 		
-		public Builder rangedDefenceBonus(int rangedDefenceBonus) {
+		/**
+		 * Sets the defensive ranged bonus of the {@link ItemBonuses} being constructed.
+		 * @param rangedDefenceBonus The defensive ranged bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder rangedDefenceBonus(int rangedDefenceBonus) {
 			this.rangedDefenceBonus = rangedDefenceBonus;
 			return this;
 		}
 		
-		public Builder strengthBonus(int strengthBonus) {
+		/**
+		 * Sets the strength of the {@link ItemBonuses} being constructed.
+		 * @param strengthBonus The strength bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder strengthBonus(int strengthBonus) {
 			this.strengthBonus = strengthBonus;
 			return this;
 		}
 		
-		public Builder prayerBonus(int prayerBonus) {
+		/**
+		 * Sets the prayer bonus of the {@link ItemBonuses} being constructed.
+		 * @param prayerBonus The prayer bonus.
+		 * @return The current {@link ItemBonuses} under construction.
+		 */			
+		public ItemBonusesBuilder prayerBonus(int prayerBonus) {
 			this.prayerBonus = prayerBonus;
 			return this;
 		}
 		
+		/**
+		 * Builds the {@link ItemBonuses} and returns it.
+		 * @return The constructed {@link ItemBonuses}.
+		 */
 		public ItemBonuses build() {
 			return new ItemBonuses(this);
 		}
 		
 	}
 	
-	private ItemBonuses(Builder builder) {
-		this.stabBonus = builder.stabBonus;
-		this.slashBonus = builder.slashBonus;
-		this.crushBonus = builder.crushBonus;
+	/**
+	 * Creates a new {@code ItemBonuses} given a {@link ItemBonusesBuilder} for the {@code ItemBonuses}.
+	 * @param builder The {@link ItemBonusesBuilder} that will be used for this {@code ItemBonuses} object.
+	 */
+	private ItemBonuses(ItemBonusesBuilder builder) {
+		this.stabAttackBonus = builder.stabBonus;
+		this.slashAttackBonus = builder.slashBonus;
+		this.crushAttackBonus = builder.crushBonus;
 		this.magicAttackBonus = builder.magicAttackBonus;
 		this.rangedAttackBonus = builder.rangedAttackBonus;
 		this.stabDefenceBonus = builder.stabDefenceBonus;
