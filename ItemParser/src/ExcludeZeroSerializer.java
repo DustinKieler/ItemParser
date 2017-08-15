@@ -9,8 +9,20 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
+/**
+ * This {@link ItemBonuses} JSON serializer is used to ignore integer fields that
+ * have the value of 0.
+ * @author Dustin Kieler
+ *
+ */
 public class ExcludeZeroSerializer implements JsonSerializer<ItemBonuses> {
 
+	/**
+	 * Serializes an ItemBonuses object, ignoring integer fields with the value of 0.
+	 * Any integer fields with the value of 0 are removed from the JSON object tree.
+	 * If the entry set of the JSON object tree is empty once all zero-valued fields
+	 * are removed, the serialization will return a {@code null} {@link JsonElement}.
+	 */
 	@Override
 	public JsonElement serialize(ItemBonuses arg0, Type arg1, JsonSerializationContext arg2) {
 		Gson gson = new Gson();
