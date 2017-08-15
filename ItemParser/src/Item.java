@@ -1,6 +1,7 @@
 /**
  * Represents an item which contains an item ID, name, description, prices (shop, low alchemy, high alchemy),
- * and item bonuses. This object is immutable.
+ * and item bonuses.
+ * This object is immutable.
  * @author Dustin Kieler
  *
  */
