@@ -41372,20 +41372,7 @@
     "description": "Torag the Corrupted's plate body armour.",
     "shopPrice": 1000000,
     "lowAlchPrice": 1000000,
-    "highAlchPrice": 1000000,
-    "bonuses": {
-      "stabAttackBonus": 4,
-      "slashAttackBonus": 3,
-      "crushAttackBonus": 5,
-      "magicAttackBonus": -30,
-      "rangedAttackBonus": 2,
-      "stabDefenceBonus": 55,
-      "slashDefenceBonus": 58,
-      "crushDefenceBonus": 54,
-      "magicDefenceBonus": -12,
-      "rangedDefenceBonus": -1,
-      "strengthBonus": 10
-    }
+    "highAlchPrice": 1000000
   },
   {
     "itemID": 4750,
@@ -48068,16 +48055,7 @@
     "description": "An initiate Temple Knight's helm.",
     "shopPrice": 2142,
     "lowAlchPrice": 2142,
-    "highAlchPrice": 2589,
-    "bonuses": {
-      "magicAttackBonus": -6,
-      "rangedAttackBonus": -2,
-      "stabDefenceBonus": 13,
-      "slashDefenceBonus": 14,
-      "crushDefenceBonus": 11,
-      "magicDefenceBonus": -1,
-      "rangedDefenceBonus": 13
-    }
+    "highAlchPrice": 2589
   },
   {
     "itemID": 5575,
@@ -56290,19 +56268,7 @@
     "description": "A cape of woven obsidian plates.",
     "shopPrice": 50000,
     "lowAlchPrice": 50000,
-    "highAlchPrice": 50000,
-    "bonuses": {
-      "slashAttackBonus": 9,
-      "crushAttackBonus": 9,
-      "rangedAttackBonus": 9,
-      "stabDefenceBonus": 9,
-      "slashDefenceBonus": 9,
-      "crushDefenceBonus": 9,
-      "magicDefenceBonus": 9,
-      "rangedDefenceBonus": 9,
-      "strengthBonus": 9,
-      "prayerBonus": 9
-    }
+    "highAlchPrice": 50000
   },
   {
     "itemID": 6569,
@@ -56509,19 +56475,7 @@
     "description": "A fabled ring that improves the wearer's skill with a bow.",
     "shopPrice": 10000000,
     "lowAlchPrice": 10000000,
-    "highAlchPrice": 10000000,
-    "bonuses": {
-      "stabAttackBonus": 20,
-      "slashAttackBonus": 20,
-      "crushAttackBonus": 20,
-      "rangedAttackBonus": 20,
-      "stabDefenceBonus": 20,
-      "slashDefenceBonus": 20,
-      "crushDefenceBonus": 20,
-      "rangedDefenceBonus": 20,
-      "strengthBonus": 20,
-      "prayerBonus": 2
-    }
+    "highAlchPrice": 10000000
   },
   {
     "itemID": 6734,
@@ -56641,15 +56595,7 @@
     "description": "A two handed sword.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 979,
-    "bonuses": {
-      "slashAttackBonus": -4,
-      "crushAttackBonus": 27,
-      "magicAttackBonus": 21,
-      "rangedAttackBonus": -4,
-      "strengthBonus": -1,
-      "prayerBonus": 26
-    }
+    "highAlchPrice": 979
   },
   {
     "itemID": 6610,
@@ -64844,12 +64790,7 @@
     "description": "A rune defender.",
     "shopPrice": 432123,
     "lowAlchPrice": 334222,
-    "highAlchPrice": 334222,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 8,
-      "prayerBonus": 8
-    }
+    "highAlchPrice": 334222
   },
   {
     "itemID": 13600,
@@ -64857,11 +64798,7 @@
     "description": "A Adament Defender.",
     "shopPrice": 234213,
     "lowAlchPrice": 145321,
-    "highAlchPrice": 145321,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 5
-    }
+    "highAlchPrice": 145321
   },
   {
     "itemID": 13599,
@@ -64869,11 +64806,7 @@
     "description": "A Mithril Defender.",
     "shopPrice": 145323,
     "lowAlchPrice": 99554,
-    "highAlchPrice": 99554,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 3
-    }
+    "highAlchPrice": 99554
   },
   {
     "itemID": 13598,
@@ -64881,11 +64814,7 @@
     "description": "A Black Defender.",
     "shopPrice": 512343,
     "lowAlchPrice": 32432,
-    "highAlchPrice": 32432,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 2
-    }
+    "highAlchPrice": 32432
   },
   {
     "itemID": 13597,
@@ -64893,11 +64822,7 @@
     "description": "A Steel Defender.",
     "shopPrice": 121222,
     "lowAlchPrice": 121222,
-    "highAlchPrice": 121222,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 1
-    }
+    "highAlchPrice": 121222
   },
   {
     "itemID": 13596,
@@ -64905,11 +64830,7 @@
     "description": "A Iron Defender.",
     "shopPrice": 50000,
     "lowAlchPrice": 50000,
-    "highAlchPrice": 50000,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 1
-    }
+    "highAlchPrice": 50000
   },
   {
     "itemID": 13595,
@@ -64917,11 +64838,7 @@
     "description": "A Bronze Defender.",
     "shopPrice": 30000,
     "lowAlchPrice": 30000,
-    "highAlchPrice": 30000,
-    "bonuses": {
-      "magicAttackBonus": -3,
-      "strengthBonus": 1
-    }
+    "highAlchPrice": 30000
   },
   {
     "itemID": 14638,
@@ -64929,14 +64846,7 @@
     "description": "A Fighter Torso.",
     "shopPrice": 1435432,
     "lowAlchPrice": 965432,
-    "highAlchPrice": 965432,
-    "bonuses": {
-      "magicAttackBonus": -40,
-      "rangedAttackBonus": -10,
-      "magicDefenceBonus": -5,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10
-    }
+    "highAlchPrice": 965432
   },
   {
     "itemID": 15352,
@@ -64965,10 +64875,7 @@
     "description": "A f Age Plate.",
     "shopPrice": 275000000,
     "lowAlchPrice": 275000000,
-    "highAlchPrice": 275000000,
-    "bonuses": {
-      "magicAttackBonus": -20
-    }
+    "highAlchPrice": 275000000
   },
   {
     "itemID": 14511,
@@ -64976,10 +64883,7 @@
     "description": "A 3rd Age Legs.",
     "shopPrice": 200000000,
     "lowAlchPrice": 200000000,
-    "highAlchPrice": 200000000,
-    "bonuses": {
-      "magicAttackBonus": -25
-    }
+    "highAlchPrice": 200000000
   },
   {
     "itemID": 14513,
@@ -64987,10 +64891,7 @@
     "description": "A 3rd Age Full Helm.",
     "shopPrice": 120000000,
     "lowAlchPrice": 120000000,
-    "highAlchPrice": 120000000,
-    "bonuses": {
-      "magicAttackBonus": -5
-    }
+    "highAlchPrice": 120000000
   },
   {
     "itemID": 10717,
@@ -65014,13 +64915,7 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000,
-    "bonuses": {
-      "stabAttackBonus": 7,
-      "slashAttackBonus": 7,
-      "crushAttackBonus": 7,
-      "strengthBonus": 4
-    }
+    "highAlchPrice": 99000
   },
   {
     "itemID": 14074,
@@ -65028,13 +64923,7 @@
     "description": "A Cape. (t)",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabAttackBonus": 7,
-      "slashAttackBonus": 7,
-      "crushAttackBonus": 7,
-      "strengthBonus": 4
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14075,
@@ -65042,13 +64931,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabAttackBonus": 2,
-      "slashAttackBonus": 2,
-      "crushAttackBonus": 2,
-      "strengthBonus": 1
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14076,
@@ -65056,10 +64939,7 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000,
-    "bonuses": {
-      "strengthBonus": 10
-    }
+    "highAlchPrice": 99000
   },
   {
     "itemID": 14078,
@@ -65067,13 +64947,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabAttackBonus": 1,
-      "slashAttackBonus": 1,
-      "crushAttackBonus": 1,
-      "strengthBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14079,
@@ -65081,16 +64955,7 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000,
-    "bonuses": {
-      "stabDefenceBonus": 5,
-      "slashDefenceBonus": 5,
-      "crushDefenceBonus": 5,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 5,
-      "prayerBonus": 5
-    }
+    "highAlchPrice": 99000
   },
   {
     "itemID": 14081,
@@ -65098,15 +64963,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabDefenceBonus": 2,
-      "slashDefenceBonus": 2,
-      "crushDefenceBonus": 2,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 2,
-      "strengthBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14082,
@@ -65114,10 +64971,7 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000,
-    "bonuses": {
-      "rangedAttackBonus": 15
-    }
+    "highAlchPrice": 99000
   },
   {
     "itemID": 14084,
@@ -65125,10 +64979,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "rangedAttackBonus": 4
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14085,
@@ -65160,11 +65011,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "magicAttackBonus": 3,
-      "prayerBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14094,
@@ -65268,18 +65115,7 @@
     "description": "The Bandos God Used This",
     "shopPrice": 75000000,
     "lowAlchPrice": 75000000,
-    "highAlchPrice": 75000000,
-    "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
-      "strengthBonus": 170,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 75000000
   },
   {
     "itemID": 15156,
@@ -65287,19 +65123,7 @@
     "description": "A Dark Bow.",
     "shopPrice": 15000000,
     "lowAlchPrice": 15000000,
-    "highAlchPrice": 15000000,
-    "bonuses": {
-      "stabAttackBonus": 40,
-      "slashAttackBonus": 40,
-      "crushAttackBonus": 40,
-      "rangedAttackBonus": 82,
-      "stabDefenceBonus": 40,
-      "slashDefenceBonus": 125,
-      "crushDefenceBonus": 40,
-      "rangedDefenceBonus": 40,
-      "strengthBonus": 40,
-      "prayerBonus": 40
-    }
+    "highAlchPrice": 15000000
   },
   {
     "itemID": 14112,
@@ -65323,16 +65147,7 @@
     "description": "A Black Mask.",
     "shopPrice": 30000000,
     "lowAlchPrice": 30000000,
-    "highAlchPrice": 30000000,
-    "bonuses": {
-      "stabDefenceBonus": 1,
-      "slashDefenceBonus": 2,
-      "crushDefenceBonus": 3,
-      "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 15,
-      "prayerBonus": 9
-    }
+    "highAlchPrice": 30000000
   },
   {
     "itemID": 14121,
@@ -65356,12 +65171,7 @@
     "description": "A Proselyte.",
     "shopPrice": 716321,
     "lowAlchPrice": 716321,
-    "highAlchPrice": 716321,
-    "bonuses": {
-      "magicAttackBonus": -21,
-      "strengthBonus": 2,
-      "prayerBonus": 5
-    }
+    "highAlchPrice": 716321
   },
   {
     "itemID": 14860,
@@ -65369,19 +65179,7 @@
     "description": "Helm Neitiznot",
     "shopPrice": 15000000,
     "lowAlchPrice": 15000000,
-    "highAlchPrice": 15000000,
-    "bonuses": {
-      "stabAttackBonus": 25,
-      "slashAttackBonus": 25,
-      "crushAttackBonus": 25,
-      "stabDefenceBonus": 25,
-      "slashDefenceBonus": 25,
-      "crushDefenceBonus": 25,
-      "magicDefenceBonus": 8,
-      "rangedDefenceBonus": 25,
-      "strengthBonus": 25,
-      "prayerBonus": 25
-    }
+    "highAlchPrice": 15000000
   },
   {
     "itemID": 14915,
@@ -65389,18 +65187,7 @@
     "description": "Yo.",
     "shopPrice": 25000000,
     "lowAlchPrice": 25000000,
-    "highAlchPrice": 25000000,
-    "bonuses": {
-      "stabAttackBonus": 31,
-      "slashAttackBonus": 21,
-      "crushAttackBonus": 35,
-      "stabDefenceBonus": 17,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 12,
-      "rangedDefenceBonus": 12,
-      "strengthBonus": 65,
-      "prayerBonus": 13
-    }
+    "highAlchPrice": 25000000
   },
   {
     "itemID": 15336,
@@ -65408,18 +65195,7 @@
     "description": "The Zamorak God Used This",
     "shopPrice": 100000000,
     "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000,
-    "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
-      "strengthBonus": 170,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 100000000
   },
   {
     "itemID": 15195,
@@ -65427,20 +65203,7 @@
     "description": "A dragon full helm",
     "shopPrice": 20000000,
     "lowAlchPrice": 20000000,
-    "highAlchPrice": 20000000,
-    "bonuses": {
-      "stabAttackBonus": 50,
-      "slashAttackBonus": 50,
-      "crushAttackBonus": 50,
-      "magicAttackBonus": -6,
-      "stabDefenceBonus": 50,
-      "slashDefenceBonus": 50,
-      "crushDefenceBonus": 50,
-      "magicDefenceBonus": -18,
-      "rangedDefenceBonus": 50,
-      "strengthBonus": 50,
-      "prayerBonus": 30
-    }
+    "highAlchPrice": 20000000
   },
   {
     "itemID": 15348,
@@ -65448,21 +65211,7 @@
     "description": "A Bandos chestplate.",
     "shopPrice": 200000000,
     "lowAlchPrice": 2500,
-    "highAlchPrice": 200000000,
-    "bonuses": {
-      "stabAttackBonus": 120,
-      "slashAttackBonus": 120,
-      "crushAttackBonus": 120,
-      "magicAttackBonus": -15,
-      "rangedAttackBonus": -15,
-      "stabDefenceBonus": 120,
-      "slashDefenceBonus": 120,
-      "crushDefenceBonus": 120,
-      "magicDefenceBonus": -35,
-      "rangedDefenceBonus": 120,
-      "strengthBonus": 120,
-      "prayerBonus": 120
-    }
+    "highAlchPrice": 200000000
   },
   {
     "itemID": 15349,
@@ -65470,21 +65219,7 @@
     "description": "Bandos tassets",
     "shopPrice": 200000000,
     "lowAlchPrice": 2000,
-    "highAlchPrice": 200000000,
-    "bonuses": {
-      "stabAttackBonus": 120,
-      "slashAttackBonus": 120,
-      "crushAttackBonus": 120,
-      "magicAttackBonus": -21,
-      "rangedAttackBonus": -5,
-      "stabDefenceBonus": 120,
-      "slashDefenceBonus": 120,
-      "crushDefenceBonus": 120,
-      "magicDefenceBonus": -20,
-      "rangedDefenceBonus": 120,
-      "strengthBonus": 120,
-      "prayerBonus": 120
-    }
+    "highAlchPrice": 200000000
   },
   {
     "itemID": 15714,
@@ -65492,21 +65227,7 @@
     "description": "Summoning cape",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000,
-    "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
-      "magicAttackBonus": 10,
-      "rangedAttackBonus": 10,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 10,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
-    }
+    "highAlchPrice": 99000
   },
   {
     "itemID": 15345,
@@ -65514,21 +65235,7 @@
     "description": "Armadyl Helmet",
     "shopPrice": 5000000,
     "lowAlchPrice": 750,
-    "highAlchPrice": 5000000,
-    "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
-      "magicAttackBonus": -5,
-      "rangedAttackBonus": 20,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 20,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
-    }
+    "highAlchPrice": 5000000
   },
   {
     "itemID": 15346,
@@ -65536,21 +65243,7 @@
     "description": "Armadyl chestplat",
     "shopPrice": 15000000,
     "lowAlchPrice": 1250,
-    "highAlchPrice": 15000000,
-    "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
-      "magicAttackBonus": -15,
-      "rangedAttackBonus": 65,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 50,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 70,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
-    }
+    "highAlchPrice": 15000000
   },
   {
     "itemID": 15347,
@@ -65558,21 +65251,7 @@
     "description": "Armadyl skirt",
     "shopPrice": 10000000,
     "lowAlchPrice": 1000,
-    "highAlchPrice": 10000000,
-    "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
-      "magicAttackBonus": -10,
-      "rangedAttackBonus": 50,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 40,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 20,
-      "prayerBonus": 10
-    }
+    "highAlchPrice": 10000000
   },
   {
     "itemID": 15715,
@@ -65588,21 +65267,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 460000000,
     "lowAlchPrice": 460000000,
-    "highAlchPrice": 460000000,
-    "bonuses": {
-      "stabAttackBonus": 150,
-      "slashAttackBonus": 150,
-      "crushAttackBonus": 150,
-      "magicAttackBonus": -10,
-      "rangedAttackBonus": 25,
-      "stabDefenceBonus": 150,
-      "slashDefenceBonus": 150,
-      "crushDefenceBonus": 150,
-      "magicDefenceBonus": 10,
-      "rangedDefenceBonus": 150,
-      "strengthBonus": 150,
-      "prayerBonus": 150
-    }
+    "highAlchPrice": 460000000
   },
   {
     "itemID": 15145,
@@ -65610,21 +65275,7 @@
     "description": "Wowz0r Dragon Arrows!",
     "shopPrice": 1200,
     "lowAlchPrice": 1200,
-    "highAlchPrice": 1200,
-    "bonuses": {
-      "stabAttackBonus": 35,
-      "slashAttackBonus": 35,
-      "crushAttackBonus": 35,
-      "magicAttackBonus": 35,
-      "rangedAttackBonus": 35,
-      "stabDefenceBonus": 35,
-      "slashDefenceBonus": 35,
-      "crushDefenceBonus": 35,
-      "magicDefenceBonus": 35,
-      "rangedDefenceBonus": 35,
-      "strengthBonus": 35,
-      "prayerBonus": 35
-    }
+    "highAlchPrice": 1200
   },
   {
     "itemID": 14505,
@@ -65632,21 +65283,7 @@
     "description": "3rd age coif",
     "shopPrice": 70000000,
     "lowAlchPrice": 70000000,
-    "highAlchPrice": 70000000,
-    "bonuses": {
-      "stabAttackBonus": 22,
-      "slashAttackBonus": 22,
-      "crushAttackBonus": 22,
-      "magicAttackBonus": -2,
-      "rangedAttackBonus": 60,
-      "stabDefenceBonus": 22,
-      "slashDefenceBonus": 22,
-      "crushDefenceBonus": 22,
-      "magicDefenceBonus": 20,
-      "rangedDefenceBonus": 22,
-      "strengthBonus": 22,
-      "prayerBonus": 22
-    }
+    "highAlchPrice": 70000000
   },
   {
     "itemID": 14506,
@@ -65670,21 +65307,7 @@
     "description": "3rd Age Range TOP!",
     "shopPrice": 70000000,
     "lowAlchPrice": 70000000,
-    "highAlchPrice": 70000000,
-    "bonuses": {
-      "stabAttackBonus": 35,
-      "slashAttackBonus": 35,
-      "crushAttackBonus": 35,
-      "magicAttackBonus": -15,
-      "rangedAttackBonus": 90,
-      "stabDefenceBonus": 35,
-      "slashDefenceBonus": 35,
-      "crushDefenceBonus": 35,
-      "magicDefenceBonus": 75,
-      "rangedDefenceBonus": 25,
-      "strengthBonus": 35,
-      "prayerBonus": 35
-    }
+    "highAlchPrice": 70000000
   },
   {
     "itemID": 14578,
@@ -65692,21 +65315,7 @@
     "description": "3rd Age Range Legs",
     "shopPrice": 70000000,
     "lowAlchPrice": 70000000,
-    "highAlchPrice": 70000000,
-    "bonuses": {
-      "stabAttackBonus": 31,
-      "slashAttackBonus": 31,
-      "crushAttackBonus": 31,
-      "magicAttackBonus": -10,
-      "rangedAttackBonus": 75,
-      "stabDefenceBonus": 31,
-      "slashDefenceBonus": 31,
-      "crushDefenceBonus": 31,
-      "magicDefenceBonus": 60,
-      "rangedDefenceBonus": 31,
-      "strengthBonus": 31,
-      "prayerBonus": 31
-    }
+    "highAlchPrice": 70000000
   },
   {
     "itemID": 15350,
@@ -65714,20 +65323,7 @@
     "description": "Bandos Boots SONage.",
     "shopPrice": 15000000,
     "lowAlchPrice": 15000000,
-    "highAlchPrice": 15000000,
-    "bonuses": {
-      "stabAttackBonus": 15,
-      "slashAttackBonus": 15,
-      "crushAttackBonus": 15,
-      "magicAttackBonus": -5,
-      "stabDefenceBonus": 15,
-      "slashDefenceBonus": 15,
-      "crushDefenceBonus": 15,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 15,
-      "strengthBonus": 15,
-      "prayerBonus": 15
-    }
+    "highAlchPrice": 15000000
   },
   {
     "itemID": 14077,
@@ -65735,13 +65331,7 @@
     "description": "A Cape. (t)",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "crushAttackBonus": 2,
-      "magicAttackBonus": 2,
-      "rangedAttackBonus": 2,
-      "strengthBonus": 10
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14080,
@@ -65749,15 +65339,7 @@
     "description": "A Cape. (t)",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "slashDefenceBonus": 5,
-      "crushDefenceBonus": 5,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 5,
-      "prayerBonus": 5
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14083,
@@ -65765,10 +65347,7 @@
     "description": "A Cape. (t)",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "rangedAttackBonus": 15
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14086,
@@ -66136,16 +65715,7 @@
     "description": "Guthix Dragonhide.",
     "shopPrice": 250000,
     "lowAlchPrice": 250000,
-    "highAlchPrice": 250000,
-    "bonuses": {
-      "magicAttackBonus": -1,
-      "rangedAttackBonus": 7,
-      "stabDefenceBonus": 4,
-      "slashDefenceBonus": 7,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
-    }
+    "highAlchPrice": 250000
   },
   {
     "itemID": 14525,
@@ -66153,16 +65723,7 @@
     "description": "Zamorak Dragonhide.",
     "shopPrice": 250000,
     "lowAlchPrice": 250000,
-    "highAlchPrice": 250000,
-    "bonuses": {
-      "magicAttackBonus": -1,
-      "rangedAttackBonus": 7,
-      "stabDefenceBonus": 4,
-      "slashDefenceBonus": 7,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
-    }
+    "highAlchPrice": 250000
   },
   {
     "itemID": 14524,
@@ -66220,16 +65781,7 @@
     "description": "Saradomin Dragonhide.",
     "shopPrice": 250000,
     "lowAlchPrice": 250000,
-    "highAlchPrice": 250000,
-    "bonuses": {
-      "magicAttackBonus": -1,
-      "rangedAttackBonus": 7,
-      "stabDefenceBonus": 4,
-      "slashDefenceBonus": 7,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
-    }
+    "highAlchPrice": 250000
   },
   {
     "itemID": 14530,
@@ -66287,10 +65839,7 @@
     "description": "A 3rd Age Kiteshield.",
     "shopPrice": 200000000,
     "lowAlchPrice": 200000000,
-    "highAlchPrice": 200000000,
-    "bonuses": {
-      "magicAttackBonus": -10
-    }
+    "highAlchPrice": 200000000
   },
   {
     "itemID": 14507,
@@ -66298,10 +65847,7 @@
     "description": "A 3rd Age Robe Top.",
     "shopPrice": 40000000,
     "lowAlchPrice": 40000000,
-    "highAlchPrice": 40000000,
-    "bonuses": {
-      "magicAttackBonus": 24
-    }
+    "highAlchPrice": 40000000
   },
   {
     "itemID": 14508,
@@ -66309,10 +65855,7 @@
     "description": "A 3rd Age Robe.",
     "shopPrice": 40000000,
     "lowAlchPrice": 40000000,
-    "highAlchPrice": 40000000,
-    "bonuses": {
-      "magicAttackBonus": 19
-    }
+    "highAlchPrice": 40000000
   },
   {
     "itemID": 14569,
@@ -66320,10 +65863,7 @@
     "description": "Guthix Robe Top.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14568,
@@ -66331,10 +65871,7 @@
     "description": "Zamorak Robe Top.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14570,
@@ -66342,10 +65879,7 @@
     "description": "Saradomin Robe Legs.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14572,
@@ -66353,10 +65887,7 @@
     "description": "Zamorak Robe Legs.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14571,
@@ -66364,10 +65895,7 @@
     "description": "Guthix Robe Legs.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14566,
@@ -66375,10 +65903,7 @@
     "description": "Zamorak Mitre.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14564,
@@ -66386,10 +65911,7 @@
     "description": "Saradomin Mitre.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14575,
@@ -66397,10 +65919,7 @@
     "description": "Guthix Mitre.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 4
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14561,
@@ -66408,10 +65927,7 @@
     "description": "Saradomin Cloak.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 1
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14562,
@@ -66419,10 +65935,7 @@
     "description": "Guthix Cloak.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 1
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14563,
@@ -66430,10 +65943,7 @@
     "description": "Zamorak Cloak.",
     "shopPrice": 600000,
     "lowAlchPrice": 600000,
-    "highAlchPrice": 600000,
-    "bonuses": {
-      "magicAttackBonus": 1
-    }
+    "highAlchPrice": 600000
   },
   {
     "itemID": 14097,
@@ -66465,18 +65975,7 @@
     "description": "A powerful sword of Armadyl",
     "shopPrice": 150000000,
     "lowAlchPrice": 150000000,
-    "highAlchPrice": 150000000,
-    "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
-      "strengthBonus": 220,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 150000000
   },
   {
     "itemID": 15335,
@@ -66484,18 +65983,7 @@
     "description": "The Saradomin God Used This",
     "shopPrice": 125000000,
     "lowAlchPrice": 125000000,
-    "highAlchPrice": 125000000,
-    "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
-      "strengthBonus": 190,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 125000000
   },
   {
     "itemID": 14091,
@@ -66605,18 +66093,7 @@
     "description": "A Powerful Sword of Saradomin",
     "shopPrice": 55000000,
     "lowAlchPrice": 55000000,
-    "highAlchPrice": 55000000,
-    "bonuses": {
-      "stabAttackBonus": 112,
-      "slashAttackBonus": 112,
-      "crushAttackBonus": 112,
-      "stabDefenceBonus": 112,
-      "slashDefenceBonus": 112,
-      "crushDefenceBonus": 112,
-      "rangedDefenceBonus": 112,
-      "strengthBonus": 112,
-      "prayerBonus": 112
-    }
+    "highAlchPrice": 55000000
   },
   {
     "itemID": 15310,
@@ -66683,18 +66160,7 @@
     "description": "A Knight Top",
     "shopPrice": 75000000,
     "lowAlchPrice": 75000000,
-    "highAlchPrice": 75000000,
-    "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
-    }
+    "highAlchPrice": 75000000
   },
   {
     "itemID": 13592,
@@ -66702,19 +66168,7 @@
     "description": "A Knight Robe",
     "shopPrice": 50000000,
     "lowAlchPrice": 50000000,
-    "highAlchPrice": 50000000,
-    "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
-    }
+    "highAlchPrice": 50000000
   },
   {
     "itemID": 13594,
@@ -66857,20 +66311,7 @@
     "description": "Oboy a manskirt",
     "shopPrice": 60000000,
     "lowAlchPrice": 60000000,
-    "highAlchPrice": 60000000,
-    "bonuses": {
-      "stabAttackBonus": 95,
-      "slashAttackBonus": 95,
-      "crushAttackBonus": 95,
-      "magicAttackBonus": -10,
-      "stabDefenceBonus": 95,
-      "slashDefenceBonus": 95,
-      "crushDefenceBonus": 95,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 95,
-      "strengthBonus": 95,
-      "prayerBonus": 95
-    }
+    "highAlchPrice": 60000000
   },
   {
     "itemID": 13800,
@@ -66878,18 +66319,7 @@
     "description": "Rune cbow",
     "shopPrice": 20000000,
     "lowAlchPrice": 20000000,
-    "highAlchPrice": 20000000,
-    "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
-      "rangedAttackBonus": 155,
-      "stabDefenceBonus": 70,
-      "slashDefenceBonus": 70,
-      "crushDefenceBonus": 70,
-      "rangedDefenceBonus": 70,
-      "strengthBonus": 70
-    }
+    "highAlchPrice": 20000000
   },
   {
     "itemID": 14100,
@@ -66937,18 +66367,7 @@
     "description": "A Vicious Spear of Zamorak",
     "shopPrice": 300000000,
     "lowAlchPrice": 300000000,
-    "highAlchPrice": 300000000,
-    "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
-      "strengthBonus": 200,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 300000000
   },
   {
     "itemID": 18009,
@@ -66956,18 +66375,7 @@
     "description": "Spirited shield",
     "shopPrice": 100000000,
     "lowAlchPrice": 1400,
-    "highAlchPrice": 100000000,
-    "bonuses": {
-      "stabAttackBonus": 75,
-      "slashAttackBonus": 75,
-      "crushAttackBonus": 75,
-      "stabDefenceBonus": 75,
-      "slashDefenceBonus": 75,
-      "crushDefenceBonus": 75,
-      "rangedDefenceBonus": 75,
-      "strengthBonus": 20,
-      "prayerBonus": 75
-    }
+    "highAlchPrice": 100000000
   },
   {
     "itemID": 18010,
@@ -66975,19 +66383,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 200000000,
     "lowAlchPrice": 200000000,
-    "highAlchPrice": 200000000,
-    "bonuses": {
-      "stabAttackBonus": 100,
-      "slashAttackBonus": 100,
-      "crushAttackBonus": 100,
-      "stabDefenceBonus": 100,
-      "slashDefenceBonus": 100,
-      "crushDefenceBonus": 100,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 100,
-      "strengthBonus": 30,
-      "prayerBonus": 100
-    }
+    "highAlchPrice": 200000000
   },
   {
     "itemID": 18011,
@@ -66995,19 +66391,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 300000000,
     "lowAlchPrice": 300000000,
-    "highAlchPrice": 300000000,
-    "bonuses": {
-      "stabAttackBonus": 130,
-      "slashAttackBonus": 130,
-      "crushAttackBonus": 130,
-      "stabDefenceBonus": 130,
-      "slashDefenceBonus": 130,
-      "crushDefenceBonus": 130,
-      "magicDefenceBonus": 30,
-      "rangedDefenceBonus": 130,
-      "strengthBonus": 55,
-      "prayerBonus": 130
-    }
+    "highAlchPrice": 300000000
   },
   {
     "itemID": 18012,
@@ -67015,20 +66399,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 400000000,
     "lowAlchPrice": 400000000,
-    "highAlchPrice": 400000000,
-    "bonuses": {
-      "stabAttackBonus": 140,
-      "slashAttackBonus": 140,
-      "crushAttackBonus": 140,
-      "magicAttackBonus": 20,
-      "stabDefenceBonus": 140,
-      "slashDefenceBonus": 140,
-      "crushDefenceBonus": 140,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 140,
-      "strengthBonus": 65,
-      "prayerBonus": 140
-    }
+    "highAlchPrice": 400000000
   },
   {
     "itemID": 18013,
@@ -67036,20 +66407,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 525000000,
     "lowAlchPrice": 525000000,
-    "highAlchPrice": 525000000,
-    "bonuses": {
-      "stabAttackBonus": 160,
-      "slashAttackBonus": 160,
-      "crushAttackBonus": 160,
-      "rangedAttackBonus": 75,
-      "stabDefenceBonus": 160,
-      "slashDefenceBonus": 160,
-      "crushDefenceBonus": 160,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 160,
-      "strengthBonus": 120,
-      "prayerBonus": 160
-    }
+    "highAlchPrice": 525000000
   },
   {
     "itemID": 18014,
@@ -67057,19 +66415,7 @@
     "description": "Dfs wooooooooot!",
     "shopPrice": 575000000,
     "lowAlchPrice": 575000000,
-    "highAlchPrice": 575000000,
-    "bonuses": {
-      "stabAttackBonus": 175,
-      "slashAttackBonus": 175,
-      "crushAttackBonus": 175,
-      "stabDefenceBonus": 175,
-      "slashDefenceBonus": 175,
-      "crushDefenceBonus": 175,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 175,
-      "strengthBonus": 175,
-      "prayerBonus": 175
-    }
+    "highAlchPrice": 575000000
   },
   {
     "itemID": 18015,
@@ -67125,14 +66471,7 @@
     "description": "A Vicious Spear of Zamorak",
     "shopPrice": 400000000,
     "lowAlchPrice": 400000000,
-    "highAlchPrice": 400000000,
-    "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
-      "strengthBonus": 200,
-      "prayerBonus": 11
-    }
+    "highAlchPrice": 400000000
   },
   {
     "itemID": 14509,
@@ -67168,10 +66507,7 @@
     "description": "An interesting crossbow",
     "shopPrice": 175000000,
     "lowAlchPrice": 175000000,
-    "highAlchPrice": 175000000,
-    "bonuses": {
-      "rangedAttackBonus": 250
-    }
+    "highAlchPrice": 175000000
   },
   {
     "itemID": 18025,
@@ -67604,19 +66940,7 @@
     "description": "A defensive weapon.",
     "shopPrice": 400000000,
     "lowAlchPrice": 400000000,
-    "highAlchPrice": 400000000,
-    "bonuses": {
-      "stabAttackBonus": 140,
-      "slashAttackBonus": 140,
-      "crushAttackBonus": 140,
-      "magicAttackBonus": -3,
-      "stabDefenceBonus": 140,
-      "slashDefenceBonus": 140,
-      "crushDefenceBonus": 140,
-      "rangedDefenceBonus": 8,
-      "strengthBonus": 140,
-      "prayerBonus": 140
-    }
+    "highAlchPrice": 400000000
   },
   {
     "itemID": 18062,
@@ -67624,19 +66948,7 @@
     "description": "A dragon crossbow.",
     "shopPrice": 100000000,
     "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000,
-    "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
-      "rangedAttackBonus": 200,
-      "stabDefenceBonus": 70,
-      "slashDefenceBonus": 70,
-      "crushDefenceBonus": 70,
-      "rangedDefenceBonus": 70,
-      "strengthBonus": 70,
-      "prayerBonus": 70
-    }
+    "highAlchPrice": 100000000
   },
   {
     "itemID": 18063,
@@ -68132,19 +67444,7 @@
     "description": "A solid armored platebody crafted by guardians of the Abyss.",
     "shopPrice": 85000000,
     "lowAlchPrice": 85000000,
-    "highAlchPrice": 85000000,
-    "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "magicAttackBonus": -30,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
-    }
+    "highAlchPrice": 85000000
   },
   {
     "itemID": 19098,
@@ -68152,19 +67452,7 @@
     "description": "Some solid armored platelegs crafted by guardians of the Abyss.",
     "shopPrice": 85000000,
     "lowAlchPrice": 85000000,
-    "highAlchPrice": 85000000,
-    "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "magicAttackBonus": -21,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
-    }
+    "highAlchPrice": 85000000
   },
   {
     "itemID": 19099,
@@ -68172,19 +67460,7 @@
     "description": "A solid armored helmet crafted by guardians of the Abyss.",
     "shopPrice": 30000000,
     "lowAlchPrice": 30000000,
-    "highAlchPrice": 30000000,
-    "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
-      "magicAttackBonus": -6,
-      "stabDefenceBonus": 70,
-      "slashDefenceBonus": 70,
-      "crushDefenceBonus": 70,
-      "rangedDefenceBonus": 70,
-      "strengthBonus": 70,
-      "prayerBonus": 70
-    }
+    "highAlchPrice": 30000000
   },
   {
     "itemID": 19100,
@@ -68192,18 +67468,7 @@
     "description": "Solid armored gloves crafted by guardians of the Abyss.",
     "shopPrice": 18000000,
     "lowAlchPrice": 18000000,
-    "highAlchPrice": 18000000,
-    "bonuses": {
-      "stabAttackBonus": 45,
-      "slashAttackBonus": 45,
-      "crushAttackBonus": 45,
-      "stabDefenceBonus": 45,
-      "slashDefenceBonus": 45,
-      "crushDefenceBonus": 45,
-      "rangedDefenceBonus": 45,
-      "strengthBonus": 45,
-      "prayerBonus": 45
-    }
+    "highAlchPrice": 18000000
   },
   {
     "itemID": 19101,
@@ -68211,18 +67476,7 @@
     "description": "Solid armored boots crafted by guardians of the Abyss.",
     "shopPrice": 12000000,
     "lowAlchPrice": 12000000,
-    "highAlchPrice": 12000000,
-    "bonuses": {
-      "stabAttackBonus": 30,
-      "slashAttackBonus": 30,
-      "crushAttackBonus": 30,
-      "stabDefenceBonus": 30,
-      "slashDefenceBonus": 30,
-      "crushDefenceBonus": 30,
-      "rangedDefenceBonus": 30,
-      "strengthBonus": 30,
-      "prayerBonus": 30
-    }
+    "highAlchPrice": 12000000
   },
   {
     "itemID": 19102,
