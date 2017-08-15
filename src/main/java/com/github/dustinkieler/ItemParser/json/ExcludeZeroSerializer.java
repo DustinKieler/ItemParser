@@ -1,4 +1,4 @@
-package main.java.com.github.dustinkieler.itemparser.json;
+package com.github.dustinkieler.itemparser.json;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
-import main.java.com.github.dustinkieler.itemparser.items.ItemBonuses;
+import com.github.dustinkieler.itemparser.items.ItemBonuses;
 
 /**
  * This {@link ItemBonuses} JSON serializer is used to ignore integer fields that

@@ -1,7 +1,7 @@
 import java.io.File;
 
-import main.java.com.github.dustinkieler.itemparser.items.ItemParser;
-import main.java.com.github.dustinkieler.itemparser.json.ItemToJsonConverter;
+import com.github.dustinkieler.itemparser.items.ItemParser;
+import com.github.dustinkieler.itemparser.json.ItemToJsonConverter;
 
 /**
  * Contains the main method.

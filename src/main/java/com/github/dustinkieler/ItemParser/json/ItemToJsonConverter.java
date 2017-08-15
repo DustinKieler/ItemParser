@@ -1,4 +1,4 @@
-package main.java.com.github.dustinkieler.itemparser.json;
+package com.github.dustinkieler.itemparser.json;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import main.java.com.github.dustinkieler.itemparser.items.Item;
-import main.java.com.github.dustinkieler.itemparser.items.ItemBonuses;
+import com.github.dustinkieler.itemparser.items.Item;
+import com.github.dustinkieler.itemparser.items.ItemBonuses;
 
 /**
  * Contains utilities to convert an {@link Item}(s) to JSON using Google GSON.

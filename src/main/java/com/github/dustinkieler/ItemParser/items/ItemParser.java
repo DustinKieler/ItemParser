@@ -1,4 +1,4 @@
-package main.java.com.github.dustinkieler.itemparser.items;
+package com.github.dustinkieler.itemparser.items;
 
 import java.io.BufferedReader;
 import java.io.File;

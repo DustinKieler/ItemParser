@@ -1,4 +1,4 @@
-package main.java.com.github.dustinkieler.itemparser.items;
+package com.github.dustinkieler.itemparser.items;
 
 /**
  * Represents the equipment bonuses of an item.

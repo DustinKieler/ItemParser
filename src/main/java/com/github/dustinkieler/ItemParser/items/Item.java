@@ -1,4 +1,4 @@
-package main.java.com.github.dustinkieler.itemparser.items;
+package com.github.dustinkieler.itemparser.items;
 
 /**
  * Represents an item which contains an item ID, name, description, prices (shop, low alchemy, high alchemy),
