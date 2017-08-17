@@ -1,4 +1,4 @@
-# ITEMPARSER #
+# ITEMPARSER (WIP) #
 
 Early RS2 emulations store their item configurations in a sloppy way using a regular text file. This file is often large, unlabeled, and slow to parse. Paired with this, due to its dirtiness, is often a poor loading structure that takes unnecessary memory and processing time. 
 
