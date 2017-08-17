@@ -25,7 +25,7 @@ public class ItemParser {
     
     // The items created from parsing the configuration file.
     private ArrayList<Item> items;
-    
+        
     /**
      * Creates a new ItemParser that will parse the given {@code configurationFileToparse}.
      * @param configurationFileToParse The {@link File} containing the item configurations to parse.
@@ -41,27 +41,35 @@ public class ItemParser {
      * list. Once this method is finished executing, the stored {@link Item}s
      * may be accessed by using {@code getItems}.
      */
-    public void parseItemConfig() {        
-        try {
-            final BufferedReader fileReader = new BufferedReader(new FileReader(configurationFileToParse));
-            String itemLine = fileReader.readLine();
+    public void parseItemConfig() {
+        BufferedReader configFileReader = null;    
+        try {         
+            configFileReader = new BufferedReader(new FileReader(configurationFileToParse));
+            String itemLine = configFileReader.readLine();
             
             System.out.println("Parsing line: " + itemLine);
             while (null != itemLine) {                
                 parseItem(itemLine);
-                itemLine = fileReader.readLine();
+                itemLine = configFileReader.readLine();
                 if (null != itemLine)
                     System.out.println("Parsing line: " + itemLine);
-            }
+            }          
+            System.out.println("Done!");
             
-            fileReader.close();            
-            System.out.println("Done!");        
         } catch (IOException ioex) {
             System.out.println("Failed to open the file!");
             ioex.printStackTrace();
         } catch (Exception ex) {
             System.out.println("Uncaught exception occurred at top level!");
             ex.printStackTrace();
+        } finally {
+            try {
+                if (null != configFileReader)
+                    configFileReader.close();
+            } catch (IOException ioex) {
+                System.out.println("Failed to close the reader!");
+                ioex.printStackTrace();
+            }
         }
         
     }
@@ -72,7 +80,7 @@ public class ItemParser {
      * If a {@link NumberFormatException} is thrown, {@code items} will not change.
      * @param itemInformation The line containing the information about the item.
      */
-    private void parseItem(final String itemInformation) {        
+    private void parseItem(final String itemInformation) {
         try {
             Queue<String> itemDefs = new LinkedList<String>(Arrays.asList(itemInformation.split("\\s+")));        
             itemDefs.remove(); // Get rid of "item"
