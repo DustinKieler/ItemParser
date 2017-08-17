@@ -10,6 +10,9 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 /**
  * Parses a typical RS2 emulation item.cfg file into {@link Item}s.
  * To parse a given file, create the {@code ItemParser} with the configuration file.
@@ -25,7 +28,9 @@ public class ItemCfgParser {
     
     // The items created from parsing the configuration file.
     private ArrayList<Item> items;
-        
+    
+    private static final Logger LOGGER = LogManager.getLogger(ItemCfgParser.class.getName());
+    
     /**
      * Creates a new ItemParser that will parse the given {@code configurationFileToparse}.
      * @param configurationFileToParse The {@link File} containing the item configurations to parse.
@@ -94,7 +99,7 @@ public class ItemCfgParser {
                                 .highAlchPrice(Integer.parseInt(removeDecimal(itemDefs.remove())))
                                 .itemBonuses(buildItemBonuses(itemDefs))
                                 .build();
-            items.add(item);        
+            items.add(item);
         } catch (NumberFormatException numberFormatException) {
             System.out.println("There was an issue converting data types.");
             numberFormatException.printStackTrace();
