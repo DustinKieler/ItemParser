@@ -15,7 +15,7 @@ Make sure that you're about to process the right file format. The below formatti
 Move your configuration file (named **item.cfg**) into your projects main directory, and execute the Main class. An **item.json** file will be created in the main directory, which contains your beautiful JSON!
 
 ### Reloading the JSON ###
-When the configuration file is parsed, each line is stored as an Item object and stored in an ArrayList of items. You can incorporate the below class to convert the JSON back into an ArrayList and use it as you wish. For `Type`, make sure you import `java.lang.reflect.Type`.
+When the configuration file is parsed, each line is stored as an Item object and stored in an ArrayList of items. You can incorporate the below class to convert the JSON back into an ArrayList and use it as you wish. For `Type`, make sure you import `java.lang.reflect.Type`. In addition, `TypeToken` is part of the Google GSON API.
 
     private static final Type LOAD_TYPE = new TypeToken<ArrayList<Item>>(){}.getType();
     
