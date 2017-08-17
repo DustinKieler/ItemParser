@@ -1,7 +1,8 @@
 package com.github.dustinkieler.itemparser.json;
 
 import java.lang.reflect.Type;
-import java.util.stream.Collectors;
+import java.util.Map.Entry;
+import java.util.function.Predicate;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
@@ -30,9 +31,8 @@ public class ExcludeZeroSerializer implements JsonSerializer<ItemBonuses> {
         final Gson gson = new Gson();
         JsonObject jObj = (JsonObject) gson.toJsonTree(bonusesObject);
         
-        jObj.entrySet().stream()
-                       .filter(entry -> entry.getValue().getAsInt() != 0)
-                       .collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue()));
+        Predicate<Entry<String, JsonElement>> zeroPredicate = entry -> entry.getValue().getAsInt() == 0;
+        jObj.entrySet().removeIf(zeroPredicate);
         
         // We are serializing only the inner bonuses object here of the Item object, so we check if it's empty.
         // JSON won't serialize nulls, so we'll return null if all bonuses are 0.
