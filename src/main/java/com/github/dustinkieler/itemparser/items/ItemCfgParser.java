@@ -29,7 +29,7 @@ public class ItemCfgParser {
     // The items created from parsing the configuration file.
     private ArrayList<Item> items;
     
-    private static final Logger LOGGER = LogManager.getLogger(ItemCfgParser.class.getName());
+    private static final Logger LOGGER = LogManager.getLogger(ItemCfgParser.class);
     
     /**
      * Creates a new ItemParser that will parse the given {@code configurationFileToparse}.
