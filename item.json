@@ -32645,6 +32645,14 @@
     "highAlchPrice": 1
   },
   {
+    "itemID": 3746,
+    "name": "Sticky red goop",
+    "description": "Yup it's sticky, it's red and it's goop.",
+    "shopPrice": 1,
+    "lowAlchPrice": 1,
+    "highAlchPrice": 1
+  },
+  {
     "itemID": 3747,
     "name": "Sticky red goop",
     "description": "Swap this note at any bank for a Sticky red goop.",
@@ -41374,16 +41382,13 @@
     "lowAlchPrice": 1000000,
     "highAlchPrice": 1000000,
     "bonuses": {
-      "stabAttackBonus": 4,
-      "slashAttackBonus": 3,
-      "crushAttackBonus": 5,
       "magicAttackBonus": -30,
-      "rangedAttackBonus": 2,
-      "stabDefenceBonus": 55,
-      "slashDefenceBonus": 58,
-      "crushDefenceBonus": 54,
-      "magicDefenceBonus": -12,
-      "rangedDefenceBonus": -1,
+      "rangedAttackBonus": -10,
+      "stabDefenceBonus": 122,
+      "slashDefenceBonus": 120,
+      "crushDefenceBonus": 107,
+      "magicDefenceBonus": -6,
+      "rangedDefenceBonus": 132,
       "strengthBonus": 10
     }
   },
@@ -48076,7 +48081,8 @@
       "slashDefenceBonus": 14,
       "crushDefenceBonus": 11,
       "magicDefenceBonus": -1,
-      "rangedDefenceBonus": 13
+      "rangedDefenceBonus": 13,
+      "prayerBonus": 3
     }
   },
   {
@@ -56218,7 +56224,7 @@
   {
     "itemID": 6541,
     "name": "Mouse Toy",
-    "description": "The NEw Generation Of Whips.",
+    "description": "The new generation of whips.",
     "shopPrice": 1,
     "lowAlchPrice": 1,
     "highAlchPrice": 1
@@ -56292,16 +56298,11 @@
     "lowAlchPrice": 50000,
     "highAlchPrice": 50000,
     "bonuses": {
-      "slashAttackBonus": 9,
-      "crushAttackBonus": 9,
-      "rangedAttackBonus": 9,
       "stabDefenceBonus": 9,
       "slashDefenceBonus": 9,
       "crushDefenceBonus": 9,
       "magicDefenceBonus": 9,
-      "rangedDefenceBonus": 9,
-      "strengthBonus": 9,
-      "prayerBonus": 9
+      "rangedDefenceBonus": 9
     }
   },
   {
@@ -56511,16 +56512,7 @@
     "lowAlchPrice": 10000000,
     "highAlchPrice": 10000000,
     "bonuses": {
-      "stabAttackBonus": 20,
-      "slashAttackBonus": 20,
-      "crushAttackBonus": 20,
-      "rangedAttackBonus": 20,
-      "stabDefenceBonus": 20,
-      "slashDefenceBonus": 20,
-      "crushDefenceBonus": 20,
-      "rangedDefenceBonus": 20,
-      "strengthBonus": 20,
-      "prayerBonus": 2
+      "rangedAttackBonus": 20
     }
   },
   {
@@ -56643,12 +56635,13 @@
     "lowAlchPrice": 0,
     "highAlchPrice": 979,
     "bonuses": {
-      "slashAttackBonus": -4,
-      "crushAttackBonus": 27,
-      "magicAttackBonus": 21,
-      "rangedAttackBonus": -4,
-      "strengthBonus": -1,
-      "prayerBonus": 26
+      "stabAttackBonus": -4,
+      "slashAttackBonus": 27,
+      "crushAttackBonus": 21,
+      "magicAttackBonus": -4,
+      "rangedDefenceBonus": -1,
+      "strengthBonus": 26,
+      "prayerBonus": 1
     }
   },
   {
@@ -64846,21 +64839,38 @@
     "lowAlchPrice": 334222,
     "highAlchPrice": 334222,
     "bonuses": {
+      "stabAttackBonus": 20,
+      "slashAttackBonus": 19,
+      "crushAttackBonus": 18,
       "magicAttackBonus": -3,
-      "strengthBonus": 8,
-      "prayerBonus": 8
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 20,
+      "slashDefenceBonus": 19,
+      "crushDefenceBonus": 18,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
+      "strengthBonus": 5
     }
   },
   {
     "itemID": 13600,
-    "name": "Adament Defender",
+    "name": "Adamant Defender",
     "description": "A Adament Defender.",
     "shopPrice": 234213,
     "lowAlchPrice": 145321,
     "highAlchPrice": 145321,
     "bonuses": {
+      "stabAttackBonus": 13,
+      "slashAttackBonus": 12,
+      "crushAttackBonus": 11,
       "magicAttackBonus": -3,
-      "strengthBonus": 5
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 13,
+      "slashDefenceBonus": 12,
+      "crushDefenceBonus": 11,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
+      "strengthBonus": 4
     }
   },
   {
@@ -64871,7 +64881,16 @@
     "lowAlchPrice": 99554,
     "highAlchPrice": 99554,
     "bonuses": {
+      "stabAttackBonus": 10,
+      "slashAttackBonus": 9,
+      "crushAttackBonus": 8,
       "magicAttackBonus": -3,
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 10,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 8,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
       "strengthBonus": 3
     }
   },
@@ -64883,7 +64902,16 @@
     "lowAlchPrice": 32432,
     "highAlchPrice": 32432,
     "bonuses": {
+      "stabAttackBonus": 9,
+      "slashAttackBonus": 8,
+      "crushAttackBonus": 7,
       "magicAttackBonus": -3,
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 8,
+      "crushDefenceBonus": 7,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
       "strengthBonus": 2
     }
   },
@@ -64895,7 +64923,16 @@
     "lowAlchPrice": 121222,
     "highAlchPrice": 121222,
     "bonuses": {
+      "stabAttackBonus": 7,
+      "slashAttackBonus": 6,
+      "crushAttackBonus": 5,
       "magicAttackBonus": -3,
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 7,
+      "slashDefenceBonus": 6,
+      "crushDefenceBonus": 5,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
       "strengthBonus": 1
     }
   },
@@ -64907,8 +64944,16 @@
     "lowAlchPrice": 50000,
     "highAlchPrice": 50000,
     "bonuses": {
+      "stabAttackBonus": 5,
+      "slashAttackBonus": 4,
+      "crushAttackBonus": 3,
       "magicAttackBonus": -3,
-      "strengthBonus": 1
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 5,
+      "slashDefenceBonus": 4,
+      "crushDefenceBonus": 3,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2
     }
   },
   {
@@ -64919,8 +64964,16 @@
     "lowAlchPrice": 30000,
     "highAlchPrice": 30000,
     "bonuses": {
+      "stabAttackBonus": 3,
+      "slashAttackBonus": 2,
+      "crushAttackBonus": 1,
       "magicAttackBonus": -3,
-      "strengthBonus": 1
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 3,
+      "slashDefenceBonus": 2,
+      "crushDefenceBonus": 1,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2
     }
   },
   {
@@ -64932,10 +64985,12 @@
     "highAlchPrice": 965432,
     "bonuses": {
       "magicAttackBonus": -40,
-      "rangedAttackBonus": -10,
-      "magicDefenceBonus": -5,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10
+      "stabDefenceBonus": 62,
+      "slashDefenceBonus": 85,
+      "crushDefenceBonus": 62,
+      "magicDefenceBonus": -10,
+      "rangedDefenceBonus": 67,
+      "strengthBonus": 15
     }
   },
   {
@@ -64967,7 +65022,12 @@
     "lowAlchPrice": 275000000,
     "highAlchPrice": 275000000,
     "bonuses": {
-      "magicAttackBonus": -20
+      "magicAttackBonus": -20,
+      "stabDefenceBonus": 96,
+      "slashDefenceBonus": 108,
+      "crushDefenceBonus": 113,
+      "magicDefenceBonus": -4,
+      "rangedDefenceBonus": 97
     }
   },
   {
@@ -64978,7 +65038,13 @@
     "lowAlchPrice": 200000000,
     "highAlchPrice": 200000000,
     "bonuses": {
-      "magicAttackBonus": -25
+      "magicAttackBonus": -25,
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 78,
+      "slashDefenceBonus": 76,
+      "crushDefenceBonus": 83,
+      "magicDefenceBonus": -5,
+      "rangedDefenceBonus": 75
     }
   },
   {
@@ -64989,7 +65055,13 @@
     "lowAlchPrice": 120000000,
     "highAlchPrice": 120000000,
     "bonuses": {
-      "magicAttackBonus": -5
+      "magicAttackBonus": -5,
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 47,
+      "slashDefenceBonus": 49,
+      "crushDefenceBonus": 43,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": 48
     }
   },
   {
@@ -64998,7 +65070,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 10718,
@@ -65016,24 +65095,27 @@
     "lowAlchPrice": 99000,
     "highAlchPrice": 99000,
     "bonuses": {
-      "stabAttackBonus": 7,
-      "slashAttackBonus": 7,
-      "crushAttackBonus": 7,
-      "strengthBonus": 4
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
     }
   },
   {
     "itemID": 14074,
     "name": "Attack cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0,
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
     "bonuses": {
-      "stabAttackBonus": 7,
-      "slashAttackBonus": 7,
-      "crushAttackBonus": 7,
-      "strengthBonus": 4
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
     }
   },
   {
@@ -65042,13 +65124,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabAttackBonus": 2,
-      "slashAttackBonus": 2,
-      "crushAttackBonus": 2,
-      "strengthBonus": 1
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14076,
@@ -65058,7 +65134,11 @@
     "lowAlchPrice": 99000,
     "highAlchPrice": 99000,
     "bonuses": {
-      "strengthBonus": 10
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
     }
   },
   {
@@ -65067,13 +65147,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabAttackBonus": 1,
-      "slashAttackBonus": 1,
-      "crushAttackBonus": 1,
-      "strengthBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14079,
@@ -65083,13 +65157,11 @@
     "lowAlchPrice": 99000,
     "highAlchPrice": 99000,
     "bonuses": {
-      "stabDefenceBonus": 5,
-      "slashDefenceBonus": 5,
-      "crushDefenceBonus": 5,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 5,
-      "prayerBonus": 5
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
     }
   },
   {
@@ -65098,15 +65170,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "stabDefenceBonus": 2,
-      "slashDefenceBonus": 2,
-      "crushDefenceBonus": 2,
-      "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 2,
-      "strengthBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14082,
@@ -65116,7 +65180,11 @@
     "lowAlchPrice": 99000,
     "highAlchPrice": 99000,
     "bonuses": {
-      "rangedAttackBonus": 15
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
     }
   },
   {
@@ -65125,10 +65193,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "rangedAttackBonus": 4
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14085,
@@ -65136,7 +65201,15 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14087,
@@ -65152,7 +65225,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14090,
@@ -65160,11 +65240,7 @@
     "description": "A Hood.",
     "shopPrice": 0,
     "lowAlchPrice": 0,
-    "highAlchPrice": 0,
-    "bonuses": {
-      "magicAttackBonus": 3,
-      "prayerBonus": 2
-    }
+    "highAlchPrice": 0
   },
   {
     "itemID": 14094,
@@ -65172,7 +65248,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14096,
@@ -65188,7 +65271,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14105,
@@ -65204,7 +65294,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14111,
@@ -65220,7 +65317,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14126,
@@ -65236,7 +65340,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14129,
@@ -65252,7 +65363,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14135,
@@ -65270,15 +65388,10 @@
     "lowAlchPrice": 75000000,
     "highAlchPrice": 75000000,
     "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
+      "slashAttackBonus": 132,
+      "crushAttackBonus": 80,
       "strengthBonus": 170,
-      "prayerBonus": 11
+      "prayerBonus": 8
     }
   },
   {
@@ -65289,16 +65402,7 @@
     "lowAlchPrice": 15000000,
     "highAlchPrice": 15000000,
     "bonuses": {
-      "stabAttackBonus": 40,
-      "slashAttackBonus": 40,
-      "crushAttackBonus": 40,
-      "rangedAttackBonus": 82,
-      "stabDefenceBonus": 40,
-      "slashDefenceBonus": 125,
-      "crushDefenceBonus": 40,
-      "rangedDefenceBonus": 40,
-      "strengthBonus": 40,
-      "prayerBonus": 40
+      "rangedAttackBonus": 82
     }
   },
   {
@@ -65307,7 +65411,14 @@
     "description": "A Slayer cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14114,
@@ -65325,13 +65436,14 @@
     "lowAlchPrice": 30000000,
     "highAlchPrice": 30000000,
     "bonuses": {
-      "stabDefenceBonus": 1,
-      "slashDefenceBonus": 2,
-      "crushDefenceBonus": 3,
-      "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 15,
-      "prayerBonus": 9
+      "magicAttackBonus": -3,
+      "rangedAttackBonus": -1,
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 10,
+      "crushDefenceBonus": 8,
+      "magicDefenceBonus": -1,
+      "rangedDefenceBonus": 9,
+      "strengthBonus": 15
     }
   },
   {
@@ -65340,7 +65452,14 @@
     "description": "A Smith Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14123,
@@ -65359,8 +65478,13 @@
     "highAlchPrice": 716321,
     "bonuses": {
       "magicAttackBonus": -21,
-      "strengthBonus": 2,
-      "prayerBonus": 5
+      "rangedAttackBonus": -7,
+      "stabDefenceBonus": 33,
+      "slashDefenceBonus": 31,
+      "crushDefenceBonus": 29,
+      "magicDefenceBonus": -4,
+      "rangedDefenceBonus": 31,
+      "prayerBonus": 6
     }
   },
   {
@@ -65371,16 +65495,13 @@
     "lowAlchPrice": 15000000,
     "highAlchPrice": 15000000,
     "bonuses": {
-      "stabAttackBonus": 25,
-      "slashAttackBonus": 25,
-      "crushAttackBonus": 25,
-      "stabDefenceBonus": 25,
-      "slashDefenceBonus": 25,
-      "crushDefenceBonus": 25,
-      "magicDefenceBonus": 8,
-      "rangedDefenceBonus": 25,
-      "strengthBonus": 25,
-      "prayerBonus": 25
+      "stabDefenceBonus": 31,
+      "slashDefenceBonus": 29,
+      "crushDefenceBonus": 34,
+      "magicDefenceBonus": 3,
+      "rangedDefenceBonus": 30,
+      "strengthBonus": 3,
+      "prayerBonus": 3
     }
   },
   {
@@ -65391,15 +65512,10 @@
     "lowAlchPrice": 25000000,
     "highAlchPrice": 25000000,
     "bonuses": {
-      "stabAttackBonus": 31,
-      "slashAttackBonus": 21,
-      "crushAttackBonus": 35,
-      "stabDefenceBonus": 17,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 12,
-      "rangedDefenceBonus": 12,
-      "strengthBonus": 65,
-      "prayerBonus": 13
+      "stabAttackBonus": -2,
+      "slashAttackBonus": 10,
+      "crushAttackBonus": 92,
+      "strengthBonus": 65
     }
   },
   {
@@ -65410,15 +65526,10 @@
     "lowAlchPrice": 100000000,
     "highAlchPrice": 100000000,
     "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
+      "slashAttackBonus": 132,
+      "crushAttackBonus": 80,
       "strengthBonus": 170,
-      "prayerBonus": 11
+      "prayerBonus": 8
     }
   },
   {
@@ -65429,17 +65540,14 @@
     "lowAlchPrice": 20000000,
     "highAlchPrice": 20000000,
     "bonuses": {
-      "stabAttackBonus": 50,
-      "slashAttackBonus": 50,
-      "crushAttackBonus": 50,
       "magicAttackBonus": -6,
-      "stabDefenceBonus": 50,
-      "slashDefenceBonus": 50,
-      "crushDefenceBonus": 50,
-      "magicDefenceBonus": -18,
-      "rangedDefenceBonus": 50,
-      "strengthBonus": 50,
-      "prayerBonus": 30
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 45,
+      "slashDefenceBonus": 48,
+      "crushDefenceBonus": 41,
+      "magicDefenceBonus": -1,
+      "rangedDefenceBonus": 46,
+      "strengthBonus": 30
     }
   },
   {
@@ -65450,18 +65558,15 @@
     "lowAlchPrice": 2500,
     "highAlchPrice": 200000000,
     "bonuses": {
-      "stabAttackBonus": 120,
-      "slashAttackBonus": 120,
-      "crushAttackBonus": 120,
       "magicAttackBonus": -15,
-      "rangedAttackBonus": -15,
-      "stabDefenceBonus": 120,
-      "slashDefenceBonus": 120,
-      "crushDefenceBonus": 120,
-      "magicDefenceBonus": -35,
-      "rangedDefenceBonus": 120,
+      "rangedAttackBonus": -10,
+      "stabDefenceBonus": 98,
+      "slashDefenceBonus": 93,
+      "crushDefenceBonus": 105,
+      "magicDefenceBonus": -6,
+      "rangedDefenceBonus": 133,
       "strengthBonus": 120,
-      "prayerBonus": 120
+      "prayerBonus": 1
     }
   },
   {
@@ -65472,18 +65577,15 @@
     "lowAlchPrice": 2000,
     "highAlchPrice": 200000000,
     "bonuses": {
-      "stabAttackBonus": 120,
-      "slashAttackBonus": 120,
-      "crushAttackBonus": 120,
       "magicAttackBonus": -21,
-      "rangedAttackBonus": -5,
-      "stabDefenceBonus": 120,
-      "slashDefenceBonus": 120,
-      "crushDefenceBonus": 120,
-      "magicDefenceBonus": -20,
-      "rangedDefenceBonus": 120,
+      "rangedAttackBonus": -7,
+      "stabDefenceBonus": 71,
+      "slashDefenceBonus": 63,
+      "crushDefenceBonus": 66,
+      "magicDefenceBonus": -4,
+      "rangedDefenceBonus": 93,
       "strengthBonus": 120,
-      "prayerBonus": 120
+      "prayerBonus": 1
     }
   },
   {
@@ -65494,18 +65596,11 @@
     "lowAlchPrice": 99000,
     "highAlchPrice": 99000,
     "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
-      "magicAttackBonus": 10,
-      "rangedAttackBonus": 10,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
-      "crushDefenceBonus": 10,
-      "magicDefenceBonus": 10,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
     }
   },
   {
@@ -65516,18 +65611,17 @@
     "lowAlchPrice": 750,
     "highAlchPrice": 5000000,
     "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
+      "stabAttackBonus": -5,
+      "slashAttackBonus": -5,
+      "crushAttackBonus": -5,
       "magicAttackBonus": -5,
       "rangedAttackBonus": 20,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 6,
       "crushDefenceBonus": 10,
-      "magicDefenceBonus": 20,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
+      "magicDefenceBonus": 10,
+      "rangedDefenceBonus": 20,
+      "prayerBonus": 1
     }
   },
   {
@@ -65538,18 +65632,17 @@
     "lowAlchPrice": 1250,
     "highAlchPrice": 15000000,
     "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
+      "stabAttackBonus": -7,
+      "slashAttackBonus": -7,
+      "crushAttackBonus": -7,
       "magicAttackBonus": -15,
       "rangedAttackBonus": 65,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 50,
-      "crushDefenceBonus": 10,
+      "stabDefenceBonus": 56,
+      "slashDefenceBonus": 48,
+      "crushDefenceBonus": 61,
       "magicDefenceBonus": 70,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 10,
-      "prayerBonus": 10
+      "rangedDefenceBonus": 57,
+      "prayerBonus": 1
     }
   },
   {
@@ -65560,18 +65653,17 @@
     "lowAlchPrice": 1000,
     "highAlchPrice": 10000000,
     "bonuses": {
-      "stabAttackBonus": 10,
-      "slashAttackBonus": 10,
-      "crushAttackBonus": 10,
+      "stabAttackBonus": -6,
+      "slashAttackBonus": -6,
+      "crushAttackBonus": -6,
       "magicAttackBonus": -10,
       "rangedAttackBonus": 50,
-      "stabDefenceBonus": 10,
-      "slashDefenceBonus": 10,
-      "crushDefenceBonus": 10,
+      "stabDefenceBonus": 32,
+      "slashDefenceBonus": 26,
+      "crushDefenceBonus": 34,
       "magicDefenceBonus": 40,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 20,
-      "prayerBonus": 10
+      "rangedDefenceBonus": 3,
+      "prayerBonus": 1
     }
   },
   {
@@ -65590,40 +65682,14 @@
     "lowAlchPrice": 460000000,
     "highAlchPrice": 460000000,
     "bonuses": {
-      "stabAttackBonus": 150,
-      "slashAttackBonus": 150,
-      "crushAttackBonus": 150,
       "magicAttackBonus": -10,
-      "rangedAttackBonus": 25,
-      "stabDefenceBonus": 150,
-      "slashDefenceBonus": 150,
-      "crushDefenceBonus": 150,
+      "rangedAttackBonus": -5,
+      "stabDefenceBonus": 70,
+      "slashDefenceBonus": 75,
+      "crushDefenceBonus": 72,
       "magicDefenceBonus": 10,
-      "rangedDefenceBonus": 150,
-      "strengthBonus": 150,
-      "prayerBonus": 150
-    }
-  },
-  {
-    "itemID": 15145,
-    "name": "Dragon Arrow",
-    "description": "Wowz0r Dragon Arrows!",
-    "shopPrice": 1200,
-    "lowAlchPrice": 1200,
-    "highAlchPrice": 1200,
-    "bonuses": {
-      "stabAttackBonus": 35,
-      "slashAttackBonus": 35,
-      "crushAttackBonus": 35,
-      "magicAttackBonus": 35,
-      "rangedAttackBonus": 35,
-      "stabDefenceBonus": 35,
-      "slashDefenceBonus": 35,
-      "crushDefenceBonus": 35,
-      "magicDefenceBonus": 35,
-      "rangedDefenceBonus": 35,
-      "strengthBonus": 35,
-      "prayerBonus": 35
+      "rangedDefenceBonus": 72,
+      "strengthBonus": 150
     }
   },
   {
@@ -65634,18 +65700,13 @@
     "lowAlchPrice": 70000000,
     "highAlchPrice": 70000000,
     "bonuses": {
-      "stabAttackBonus": 22,
-      "slashAttackBonus": 22,
-      "crushAttackBonus": 22,
       "magicAttackBonus": -2,
       "rangedAttackBonus": 60,
-      "stabDefenceBonus": 22,
-      "slashDefenceBonus": 22,
-      "crushDefenceBonus": 22,
-      "magicDefenceBonus": 20,
-      "rangedDefenceBonus": 22,
-      "strengthBonus": 22,
-      "prayerBonus": 22
+      "stabDefenceBonus": 4,
+      "slashDefenceBonus": 7,
+      "crushDefenceBonus": 10,
+      "magicDefenceBonus": 5,
+      "rangedDefenceBonus": 8
     }
   },
   {
@@ -65658,9 +65719,9 @@
     "bonuses": {
       "magicAttackBonus": -10,
       "rangedAttackBonus": 50,
-      "stabDefenceBonus": 15,
-      "slashDefenceBonus": 15,
-      "crushDefenceBonus": 15,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 5,
+      "crushDefenceBonus": 7,
       "magicDefenceBonus": 9
     }
   },
@@ -65672,18 +65733,13 @@
     "lowAlchPrice": 70000000,
     "highAlchPrice": 70000000,
     "bonuses": {
-      "stabAttackBonus": 35,
-      "slashAttackBonus": 35,
-      "crushAttackBonus": 35,
       "magicAttackBonus": -15,
       "rangedAttackBonus": 90,
-      "stabDefenceBonus": 35,
-      "slashDefenceBonus": 35,
-      "crushDefenceBonus": 35,
-      "magicDefenceBonus": 75,
-      "rangedDefenceBonus": 25,
-      "strengthBonus": 35,
-      "prayerBonus": 35
+      "stabDefenceBonus": 55,
+      "slashDefenceBonus": 47,
+      "crushDefenceBonus": 60,
+      "magicDefenceBonus": 60,
+      "rangedDefenceBonus": 55
     }
   },
   {
@@ -65694,18 +65750,13 @@
     "lowAlchPrice": 70000000,
     "highAlchPrice": 70000000,
     "bonuses": {
-      "stabAttackBonus": 31,
-      "slashAttackBonus": 31,
-      "crushAttackBonus": 31,
       "magicAttackBonus": -10,
       "rangedAttackBonus": 75,
       "stabDefenceBonus": 31,
-      "slashDefenceBonus": 31,
-      "crushDefenceBonus": 31,
+      "slashDefenceBonus": 25,
+      "crushDefenceBonus": 33,
       "magicDefenceBonus": 60,
-      "rangedDefenceBonus": 31,
-      "strengthBonus": 31,
-      "prayerBonus": 31
+      "rangedDefenceBonus": 31
     }
   },
   {
@@ -65716,115 +65767,175 @@
     "lowAlchPrice": 15000000,
     "highAlchPrice": 15000000,
     "bonuses": {
-      "stabAttackBonus": 15,
-      "slashAttackBonus": 15,
-      "crushAttackBonus": 15,
       "magicAttackBonus": -5,
-      "stabDefenceBonus": 15,
-      "slashDefenceBonus": 15,
-      "crushDefenceBonus": 15,
-      "magicDefenceBonus": 2,
+      "rangedAttackBonus": -3,
+      "stabDefenceBonus": 17,
+      "slashDefenceBonus": 18,
+      "crushDefenceBonus": 19,
       "rangedDefenceBonus": 15,
       "strengthBonus": 15,
-      "prayerBonus": 15
+      "prayerBonus": 1
     }
   },
   {
     "itemID": 14077,
     "name": "Strenth cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0,
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
     "bonuses": {
-      "crushAttackBonus": 2,
-      "magicAttackBonus": 2,
-      "rangedAttackBonus": 2,
-      "strengthBonus": 10
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
     }
   },
   {
     "itemID": 14080,
     "name": "Defence cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0,
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
     "bonuses": {
-      "slashDefenceBonus": 5,
-      "crushDefenceBonus": 5,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 5,
-      "prayerBonus": 5
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
     }
   },
   {
     "itemID": 14083,
     "name": "Ranged cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0,
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
     "bonuses": {
-      "rangedAttackBonus": 15
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
     }
   },
   {
     "itemID": 14086,
     "name": "Prayer cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14089,
     "name": "Magic cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14095,
     "name": "Hitpoints cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14104,
     "name": "Thieving cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14110,
     "name": "Fletching cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14107,
     "name": "Crafting cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14113,
     "name": "Slayer cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14115,
@@ -65832,15 +65943,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14116,
     "name": "Construction cape (t)",
     "description": "A Cape. (t)",
     "shopPrice": 99000,
-    "lowAlchPrice": 99999,
-    "highAlchPrice": 99000
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14118,
@@ -65848,15 +65974,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14119,
     "name": "Mining cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14121,
@@ -65864,15 +66005,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14122,
     "name": "Smithing cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14124,
@@ -65880,15 +66036,30 @@
     "description": "A Cape. ",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14125,
     "name": "Fishing cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14106,
@@ -65896,15 +66067,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14128,
     "name": "Cooking cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14130,
@@ -65912,23 +66098,46 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14131,
     "name": "Firemaking cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14134,
     "name": "Woodcutting cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14139,
@@ -65936,7 +66145,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 15713,
@@ -65944,7 +66160,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14136,
@@ -65952,15 +66175,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14137,
     "name": "Farming cape (t)",
     "description": "A Cape.",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14519,
@@ -66078,7 +66316,14 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14528,
@@ -66144,7 +66389,8 @@
       "slashDefenceBonus": 7,
       "crushDefenceBonus": 10,
       "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
+      "rangedDefenceBonus": 8,
+      "prayerBonus": 1
     }
   },
   {
@@ -66161,7 +66407,8 @@
       "slashDefenceBonus": 7,
       "crushDefenceBonus": 10,
       "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
+      "rangedDefenceBonus": 8,
+      "prayerBonus": 1
     }
   },
   {
@@ -66228,7 +66475,8 @@
       "slashDefenceBonus": 7,
       "crushDefenceBonus": 10,
       "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 8
+      "rangedDefenceBonus": 8,
+      "prayerBonus": 1
     }
   },
   {
@@ -66289,7 +66537,13 @@
     "lowAlchPrice": 200000000,
     "highAlchPrice": 200000000,
     "bonuses": {
-      "magicAttackBonus": -10
+      "magicAttackBonus": -10,
+      "rangedAttackBonus": -4,
+      "stabDefenceBonus": 63,
+      "slashDefenceBonus": 65,
+      "crushDefenceBonus": 61,
+      "magicDefenceBonus": 3,
+      "rangedDefenceBonus": 63
     }
   },
   {
@@ -66300,7 +66554,8 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "magicAttackBonus": 24
+      "magicAttackBonus": 24,
+      "magicDefenceBonus": 24
     }
   },
   {
@@ -66311,7 +66566,8 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "magicAttackBonus": 19
+      "magicAttackBonus": 19,
+      "magicDefenceBonus": 19
     }
   },
   {
@@ -66322,7 +66578,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 6
     }
   },
   {
@@ -66333,7 +66591,22 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 6
+    }
+  },
+  {
+    "itemID": 14567,
+    "name": "Saradomin Robe Top",
+    "description": "Saradomin Robe Top.",
+    "shopPrice": 600000,
+    "lowAlchPrice": 600000,
+    "highAlchPrice": 600000,
+    "bonuses": {
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 6
     }
   },
   {
@@ -66344,7 +66617,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66355,7 +66630,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66366,7 +66643,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66377,7 +66656,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66388,7 +66669,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66399,7 +66682,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 4
+      "magicAttackBonus": 4,
+      "magicDefenceBonus": 4,
+      "prayerBonus": 5
     }
   },
   {
@@ -66410,7 +66695,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 1
+      "magicAttackBonus": 1,
+      "magicDefenceBonus": 3,
+      "prayerBonus": 3
     }
   },
   {
@@ -66421,7 +66708,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 1
+      "magicAttackBonus": 1,
+      "magicDefenceBonus": 3,
+      "prayerBonus": 3
     }
   },
   {
@@ -66432,7 +66721,9 @@
     "lowAlchPrice": 600000,
     "highAlchPrice": 600000,
     "bonuses": {
-      "magicAttackBonus": 1
+      "magicAttackBonus": 1,
+      "magicDefenceBonus": 3,
+      "prayerBonus": 3
     }
   },
   {
@@ -66441,15 +66732,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14098,
     "name": "Agility cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14099,
@@ -66467,15 +66773,10 @@
     "lowAlchPrice": 150000000,
     "highAlchPrice": 150000000,
     "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
+      "slashAttackBonus": 132,
+      "crushAttackBonus": 80,
       "strengthBonus": 220,
-      "prayerBonus": 11
+      "prayerBonus": 8
     }
   },
   {
@@ -66486,15 +66787,10 @@
     "lowAlchPrice": 125000000,
     "highAlchPrice": 125000000,
     "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
+      "slashAttackBonus": 132,
+      "crushAttackBonus": 80,
       "strengthBonus": 190,
-      "prayerBonus": 11
+      "prayerBonus": 8
     }
   },
   {
@@ -66503,15 +66799,30 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14092,
     "name": "Runecrafting cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14093,
@@ -66520,38 +66831,6 @@
     "shopPrice": 0,
     "lowAlchPrice": 0,
     "highAlchPrice": 0
-  },
-  {
-    "itemID": 146146,
-    "name": "Healer Icon",
-    "description": "A Icon",
-    "shopPrice": 100000000,
-    "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000
-  },
-  {
-    "itemID": 146145,
-    "name": "Defender Icon",
-    "description": "A Icon",
-    "shopPrice": 100000000,
-    "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000
-  },
-  {
-    "itemID": 146144,
-    "name": "Collector Icon",
-    "description": "A Icon",
-    "shopPrice": 100000000,
-    "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000
-  },
-  {
-    "itemID": 146143,
-    "name": "Attacker Icon",
-    "description": "A Icon",
-    "shopPrice": 100000000,
-    "lowAlchPrice": 100000000,
-    "highAlchPrice": 100000000
   },
   {
     "itemID": 15187,
@@ -66607,15 +66886,10 @@
     "lowAlchPrice": 55000000,
     "highAlchPrice": 55000000,
     "bonuses": {
-      "stabAttackBonus": 112,
-      "slashAttackBonus": 112,
-      "crushAttackBonus": 112,
-      "stabDefenceBonus": 112,
-      "slashDefenceBonus": 112,
-      "crushDefenceBonus": 112,
-      "rangedDefenceBonus": 112,
+      "slashAttackBonus": 82,
+      "crushAttackBonus": 60,
       "strengthBonus": 112,
-      "prayerBonus": 112
+      "prayerBonus": 2
     }
   },
   {
@@ -66626,16 +66900,12 @@
     "lowAlchPrice": 65000000,
     "highAlchPrice": 65000000,
     "bonuses": {
-      "stabAttackBonus": 85,
-      "slashAttackBonus": 85,
-      "crushAttackBonus": 85,
-      "rangedAttackBonus": 25,
-      "stabDefenceBonus": 85,
-      "slashDefenceBonus": 85,
-      "crushDefenceBonus": 85,
-      "rangedDefenceBonus": 85,
-      "strengthBonus": 85,
-      "prayerBonus": 85
+      "rangedAttackBonus": 85,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 6,
+      "crushDefenceBonus": 6,
+      "magicDefenceBonus": 6,
+      "rangedDefenceBonus": 6
     }
   },
   {
@@ -66646,15 +66916,12 @@
     "lowAlchPrice": 65000000,
     "highAlchPrice": 65000000,
     "bonuses": {
-      "stabAttackBonus": 85,
-      "slashAttackBonus": 85,
-      "crushAttackBonus": 85,
-      "stabDefenceBonus": 85,
-      "slashDefenceBonus": 85,
-      "crushDefenceBonus": 85,
-      "rangedDefenceBonus": 85,
-      "strengthBonus": 85,
-      "prayerBonus": 85
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 6,
+      "crushDefenceBonus": 6,
+      "magicDefenceBonus": 6,
+      "rangedDefenceBonus": 6,
+      "strengthBonus": 85
     }
   },
   {
@@ -66665,16 +66932,12 @@
     "lowAlchPrice": 65000000,
     "highAlchPrice": 65000000,
     "bonuses": {
-      "stabAttackBonus": 85,
-      "slashAttackBonus": 85,
-      "crushAttackBonus": 85,
-      "stabDefenceBonus": 85,
-      "slashDefenceBonus": 85,
-      "crushDefenceBonus": 85,
+      "magicAttackBonus": 85,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 6,
+      "crushDefenceBonus": 6,
       "magicDefenceBonus": 6,
-      "rangedDefenceBonus": 85,
-      "strengthBonus": 85,
-      "prayerBonus": 85
+      "rangedDefenceBonus": 6
     }
   },
   {
@@ -66685,15 +66948,12 @@
     "lowAlchPrice": 75000000,
     "highAlchPrice": 75000000,
     "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
+      "stabDefenceBonus": 45,
+      "slashDefenceBonus": 45,
+      "crushDefenceBonus": 45,
+      "magicDefenceBonus": 45,
+      "rangedDefenceBonus": 45,
+      "strengthBonus": 90
     }
   },
   {
@@ -66704,16 +66964,12 @@
     "lowAlchPrice": 50000000,
     "highAlchPrice": 50000000,
     "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
-      "stabDefenceBonus": 90,
-      "slashDefenceBonus": 90,
-      "crushDefenceBonus": 90,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
+      "stabDefenceBonus": 30,
+      "slashDefenceBonus": 30,
+      "crushDefenceBonus": 30,
+      "magicDefenceBonus": 30,
+      "rangedDefenceBonus": 30,
+      "strengthBonus": 90
     }
   },
   {
@@ -66724,16 +66980,12 @@
     "lowAlchPrice": 25000000,
     "highAlchPrice": 25000000,
     "bonuses": {
-      "stabAttackBonus": 50,
-      "slashAttackBonus": 50,
-      "crushAttackBonus": 50,
-      "stabDefenceBonus": 50,
-      "slashDefenceBonus": 50,
-      "crushDefenceBonus": 50,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 6,
+      "crushDefenceBonus": 6,
       "magicDefenceBonus": 4,
-      "rangedDefenceBonus": 50,
-      "strengthBonus": 50,
-      "prayerBonus": 50
+      "rangedDefenceBonus": 6,
+      "strengthBonus": 50
     }
   },
   {
@@ -66744,15 +66996,16 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
-      "slashDefenceBonus": 80,
-      "crushDefenceBonus": 80,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 80,
-      "prayerBonus": 80
+      "stabAttackBonus": -5,
+      "slashAttackBonus": -5,
+      "crushAttackBonus": -5,
+      "magicAttackBonus": 6,
+      "rangedAttackBonus": -5,
+      "stabDefenceBonus": 6,
+      "slashDefenceBonus": 8,
+      "crushDefenceBonus": 10,
+      "magicDefenceBonus": 7,
+      "strengthBonus": 80
     }
   },
   {
@@ -66763,16 +67016,17 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
-      "stabDefenceBonus": 80,
-      "slashDefenceBonus": 80,
-      "crushDefenceBonus": 80,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 80,
-      "strengthBonus": 80,
-      "prayerBonus": 80
+      "stabAttackBonus": 5,
+      "slashAttackBonus": 5,
+      "crushAttackBonus": 5,
+      "magicAttackBonus": -7,
+      "rangedAttackBonus": -7,
+      "stabDefenceBonus": 27,
+      "slashDefenceBonus": 29,
+      "crushDefenceBonus": 26,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": 28,
+      "strengthBonus": 80
     }
   },
   {
@@ -66783,15 +67037,12 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
-      "slashDefenceBonus": 80,
-      "crushDefenceBonus": 80,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 80,
-      "prayerBonus": 80
+      "stabDefenceBonus": 30,
+      "slashDefenceBonus": 32,
+      "crushDefenceBonus": 27,
+      "magicDefenceBonus": 1,
+      "rangedDefenceBonus": 30,
+      "strengthBonus": 80
     }
   },
   {
@@ -66802,15 +67053,17 @@
     "lowAlchPrice": 40000000,
     "highAlchPrice": 40000000,
     "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
-      "slashDefenceBonus": 80,
-      "crushDefenceBonus": 80,
+      "stabAttackBonus": -5,
+      "slashAttackBonus": -5,
+      "crushAttackBonus": -5,
+      "magicAttackBonus": -5,
+      "rangedAttackBonus": 6,
+      "stabDefenceBonus": 7,
+      "slashDefenceBonus": 10,
+      "crushDefenceBonus": 11,
       "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 10,
-      "strengthBonus": 80,
-      "prayerBonus": 80
+      "rangedDefenceBonus": 8,
+      "strengthBonus": 80
     }
   },
   {
@@ -66821,15 +67074,12 @@
     "lowAlchPrice": 15000000,
     "highAlchPrice": 15000000,
     "bonuses": {
-      "stabAttackBonus": 40,
-      "slashAttackBonus": 40,
-      "crushAttackBonus": 40,
       "magicAttackBonus": 1,
-      "slashDefenceBonus": 40,
-      "crushDefenceBonus": 40,
-      "rangedDefenceBonus": 5,
-      "strengthBonus": 40,
-      "prayerBonus": 40
+      "rangedAttackBonus": 1,
+      "stabDefenceBonus": 8,
+      "slashDefenceBonus": 8,
+      "crushDefenceBonus": 8,
+      "strengthBonus": 40
     }
   },
   {
@@ -66840,15 +67090,10 @@
     "lowAlchPrice": 20000000,
     "highAlchPrice": 20000000,
     "bonuses": {
-      "stabAttackBonus": 55,
-      "slashAttackBonus": 55,
-      "crushAttackBonus": 55,
-      "stabDefenceBonus": 55,
-      "slashDefenceBonus": 55,
-      "crushDefenceBonus": 55,
-      "rangedDefenceBonus": 55,
-      "strengthBonus": 55,
-      "prayerBonus": 55
+      "slashDefenceBonus": 3,
+      "crushDefenceBonus": 4,
+      "rangedDefenceBonus": 2,
+      "strengthBonus": 55
     }
   },
   {
@@ -66859,17 +67104,14 @@
     "lowAlchPrice": 60000000,
     "highAlchPrice": 60000000,
     "bonuses": {
-      "stabAttackBonus": 95,
-      "slashAttackBonus": 95,
-      "crushAttackBonus": 95,
       "magicAttackBonus": -10,
-      "stabDefenceBonus": 95,
-      "slashDefenceBonus": 95,
-      "crushDefenceBonus": 95,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 95,
-      "strengthBonus": 95,
-      "prayerBonus": 95
+      "rangedAttackBonus": 15,
+      "stabDefenceBonus": 26,
+      "slashDefenceBonus": 21,
+      "crushDefenceBonus": 28,
+      "magicDefenceBonus": 19,
+      "rangedDefenceBonus": 26,
+      "strengthBonus": 95
     }
   },
   {
@@ -66880,15 +67122,7 @@
     "lowAlchPrice": 20000000,
     "highAlchPrice": 20000000,
     "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
-      "rangedAttackBonus": 155,
-      "stabDefenceBonus": 70,
-      "slashDefenceBonus": 70,
-      "crushDefenceBonus": 70,
-      "rangedDefenceBonus": 70,
-      "strengthBonus": 70
+      "rangedAttackBonus": 155
     }
   },
   {
@@ -66897,23 +67131,38 @@
     "description": "A Cape.",
     "shopPrice": 99000,
     "lowAlchPrice": 99000,
-    "highAlchPrice": 99000
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9
+    }
   },
   {
     "itemID": 14101,
     "name": "Herblore cape (t)",
     "description": "A Cape. (t)",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 14102,
     "name": "Herblore Hood",
     "description": "A Hood.",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 1,
+    "lowAlchPrice": 1,
+    "highAlchPrice": 1
   },
   {
     "itemID": 11578,
@@ -66939,15 +67188,15 @@
     "lowAlchPrice": 300000000,
     "highAlchPrice": 300000000,
     "bonuses": {
-      "stabAttackBonus": 3,
-      "slashAttackBonus": 4,
-      "crushAttackBonus": 13,
-      "stabDefenceBonus": 12,
-      "slashDefenceBonus": 12,
-      "crushDefenceBonus": 16,
-      "rangedDefenceBonus": 6,
+      "stabAttackBonus": 85,
+      "slashAttackBonus": 65,
+      "crushAttackBonus": 65,
+      "stabDefenceBonus": 13,
+      "slashDefenceBonus": 13,
+      "crushDefenceBonus": 12,
+      "rangedDefenceBonus": 13,
       "strengthBonus": 200,
-      "prayerBonus": 11
+      "prayerBonus": 2
     }
   },
   {
@@ -66958,15 +67207,12 @@
     "lowAlchPrice": 1400,
     "highAlchPrice": 100000000,
     "bonuses": {
-      "stabAttackBonus": 75,
-      "slashAttackBonus": 75,
-      "crushAttackBonus": 75,
-      "stabDefenceBonus": 75,
-      "slashDefenceBonus": 75,
-      "crushDefenceBonus": 75,
-      "rangedDefenceBonus": 75,
-      "strengthBonus": 20,
-      "prayerBonus": 75
+      "stabDefenceBonus": 39,
+      "slashDefenceBonus": 41,
+      "crushDefenceBonus": 50,
+      "magicDefenceBonus": 1,
+      "rangedDefenceBonus": 45,
+      "strengthBonus": 75
     }
   },
   {
@@ -66977,16 +67223,13 @@
     "lowAlchPrice": 200000000,
     "highAlchPrice": 200000000,
     "bonuses": {
-      "stabAttackBonus": 100,
-      "slashAttackBonus": 100,
-      "crushAttackBonus": 100,
-      "stabDefenceBonus": 100,
-      "slashDefenceBonus": 100,
-      "crushDefenceBonus": 100,
-      "magicDefenceBonus": 5,
-      "rangedDefenceBonus": 100,
-      "strengthBonus": 30,
-      "prayerBonus": 100
+      "stabDefenceBonus": 53,
+      "slashDefenceBonus": 55,
+      "crushDefenceBonus": 73,
+      "magicDefenceBonus": 2,
+      "rangedDefenceBonus": 52,
+      "strengthBonus": 100,
+      "prayerBonus": 3
     }
   },
   {
@@ -66997,16 +67240,13 @@
     "lowAlchPrice": 300000000,
     "highAlchPrice": 300000000,
     "bonuses": {
-      "stabAttackBonus": 130,
-      "slashAttackBonus": 130,
-      "crushAttackBonus": 130,
-      "stabDefenceBonus": 130,
-      "slashDefenceBonus": 130,
-      "crushDefenceBonus": 130,
+      "stabDefenceBonus": 53,
+      "slashDefenceBonus": 55,
+      "crushDefenceBonus": 73,
       "magicDefenceBonus": 30,
-      "rangedDefenceBonus": 130,
-      "strengthBonus": 55,
-      "prayerBonus": 130
+      "rangedDefenceBonus": 52,
+      "strengthBonus": 130,
+      "prayerBonus": 3
     }
   },
   {
@@ -67017,17 +67257,14 @@
     "lowAlchPrice": 400000000,
     "highAlchPrice": 400000000,
     "bonuses": {
-      "stabAttackBonus": 140,
-      "slashAttackBonus": 140,
-      "crushAttackBonus": 140,
       "magicAttackBonus": 20,
-      "stabDefenceBonus": 140,
-      "slashDefenceBonus": 140,
-      "crushDefenceBonus": 140,
+      "stabDefenceBonus": 53,
+      "slashDefenceBonus": 55,
+      "crushDefenceBonus": 73,
       "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 140,
-      "strengthBonus": 65,
-      "prayerBonus": 140
+      "rangedDefenceBonus": 52,
+      "strengthBonus": 140,
+      "prayerBonus": 3
     }
   },
   {
@@ -67038,17 +67275,13 @@
     "lowAlchPrice": 525000000,
     "highAlchPrice": 525000000,
     "bonuses": {
-      "stabAttackBonus": 160,
-      "slashAttackBonus": 160,
-      "crushAttackBonus": 160,
-      "rangedAttackBonus": 75,
-      "stabDefenceBonus": 160,
-      "slashDefenceBonus": 160,
-      "crushDefenceBonus": 160,
+      "stabDefenceBonus": 63,
+      "slashDefenceBonus": 65,
+      "crushDefenceBonus": 75,
       "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 160,
-      "strengthBonus": 120,
-      "prayerBonus": 160
+      "rangedDefenceBonus": 57,
+      "strengthBonus": 160,
+      "prayerBonus": 3
     }
   },
   {
@@ -67059,16 +67292,13 @@
     "lowAlchPrice": 575000000,
     "highAlchPrice": 575000000,
     "bonuses": {
-      "stabAttackBonus": 175,
-      "slashAttackBonus": 175,
-      "crushAttackBonus": 175,
-      "stabDefenceBonus": 175,
-      "slashDefenceBonus": 175,
-      "crushDefenceBonus": 175,
+      "stabDefenceBonus": 73,
+      "slashDefenceBonus": 75,
+      "crushDefenceBonus": 77,
       "magicDefenceBonus": 2,
-      "rangedDefenceBonus": 175,
+      "rangedDefenceBonus": 62,
       "strengthBonus": 175,
-      "prayerBonus": 175
+      "prayerBonus": 3
     }
   },
   {
@@ -67115,9 +67345,17 @@
     "itemID": 18020,
     "name": "Donator's Cape",
     "description": "A Cape.",
-    "shopPrice": 0,
-    "lowAlchPrice": 0,
-    "highAlchPrice": 0
+    "shopPrice": 99000,
+    "lowAlchPrice": 99000,
+    "highAlchPrice": 99000,
+    "bonuses": {
+      "stabDefenceBonus": 9,
+      "slashDefenceBonus": 9,
+      "crushDefenceBonus": 9,
+      "magicDefenceBonus": 9,
+      "rangedDefenceBonus": 9,
+      "prayerBonus": 4
+    }
   },
   {
     "itemID": 18021,
@@ -67127,11 +67365,15 @@
     "lowAlchPrice": 400000000,
     "highAlchPrice": 400000000,
     "bonuses": {
-      "stabAttackBonus": 80,
-      "slashAttackBonus": 80,
-      "crushAttackBonus": 80,
+      "stabAttackBonus": 85,
+      "slashAttackBonus": 70,
+      "crushAttackBonus": 70,
+      "stabDefenceBonus": 15,
+      "slashDefenceBonus": 15,
+      "crushDefenceBonus": 14,
+      "rangedDefenceBonus": 15,
       "strengthBonus": 200,
-      "prayerBonus": 11
+      "prayerBonus": 4
     }
   },
   {
@@ -67170,7 +67412,8 @@
     "lowAlchPrice": 175000000,
     "highAlchPrice": 175000000,
     "bonuses": {
-      "rangedAttackBonus": 250
+      "rangedAttackBonus": 250,
+      "prayerBonus": 4
     }
   },
   {
@@ -67606,16 +67849,17 @@
     "lowAlchPrice": 400000000,
     "highAlchPrice": 400000000,
     "bonuses": {
-      "stabAttackBonus": 140,
-      "slashAttackBonus": 140,
-      "crushAttackBonus": 140,
+      "stabAttackBonus": 25,
+      "slashAttackBonus": 24,
+      "crushAttackBonus": 23,
       "magicAttackBonus": -3,
-      "stabDefenceBonus": 140,
-      "slashDefenceBonus": 140,
-      "crushDefenceBonus": 140,
-      "rangedDefenceBonus": 8,
-      "strengthBonus": 140,
-      "prayerBonus": 140
+      "rangedAttackBonus": -2,
+      "stabDefenceBonus": 25,
+      "slashDefenceBonus": 24,
+      "crushDefenceBonus": 23,
+      "magicDefenceBonus": -3,
+      "rangedDefenceBonus": -2,
+      "strengthBonus": 140
     }
   },
   {
@@ -67626,16 +67870,7 @@
     "lowAlchPrice": 100000000,
     "highAlchPrice": 100000000,
     "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
-      "rangedAttackBonus": 200,
-      "stabDefenceBonus": 70,
-      "slashDefenceBonus": 70,
-      "crushDefenceBonus": 70,
-      "rangedDefenceBonus": 70,
-      "strengthBonus": 70,
-      "prayerBonus": 70
+      "rangedAttackBonus": 200
     }
   },
   {
@@ -68134,16 +68369,13 @@
     "lowAlchPrice": 85000000,
     "highAlchPrice": 85000000,
     "bonuses": {
-      "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
       "magicAttackBonus": -30,
       "stabDefenceBonus": 90,
       "slashDefenceBonus": 90,
       "crushDefenceBonus": 90,
+      "magicDefenceBonus": -6,
       "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
+      "strengthBonus": 90
     }
   },
   {
@@ -68155,15 +68387,13 @@
     "highAlchPrice": 85000000,
     "bonuses": {
       "stabAttackBonus": 90,
-      "slashAttackBonus": 90,
-      "crushAttackBonus": 90,
       "magicAttackBonus": -21,
       "stabDefenceBonus": 90,
       "slashDefenceBonus": 90,
       "crushDefenceBonus": 90,
+      "magicDefenceBonus": -4,
       "rangedDefenceBonus": 90,
-      "strengthBonus": 90,
-      "prayerBonus": 90
+      "strengthBonus": 90
     }
   },
   {
@@ -68174,16 +68404,13 @@
     "lowAlchPrice": 30000000,
     "highAlchPrice": 30000000,
     "bonuses": {
-      "stabAttackBonus": 70,
-      "slashAttackBonus": 70,
-      "crushAttackBonus": 70,
       "magicAttackBonus": -6,
       "stabDefenceBonus": 70,
       "slashDefenceBonus": 70,
       "crushDefenceBonus": 70,
+      "magicDefenceBonus": -4,
       "rangedDefenceBonus": 70,
-      "strengthBonus": 70,
-      "prayerBonus": 70
+      "strengthBonus": 70
     }
   },
   {
@@ -68194,15 +68421,13 @@
     "lowAlchPrice": 18000000,
     "highAlchPrice": 18000000,
     "bonuses": {
-      "stabAttackBonus": 45,
-      "slashAttackBonus": 45,
-      "crushAttackBonus": 45,
-      "stabDefenceBonus": 45,
-      "slashDefenceBonus": 45,
-      "crushDefenceBonus": 45,
-      "rangedDefenceBonus": 45,
-      "strengthBonus": 45,
-      "prayerBonus": 45
+      "magicAttackBonus": -30,
+      "stabDefenceBonus": 90,
+      "slashDefenceBonus": 90,
+      "crushDefenceBonus": 90,
+      "magicDefenceBonus": -6,
+      "rangedDefenceBonus": 90,
+      "strengthBonus": 90
     }
   },
   {
@@ -68213,15 +68438,11 @@
     "lowAlchPrice": 12000000,
     "highAlchPrice": 12000000,
     "bonuses": {
-      "stabAttackBonus": 30,
-      "slashAttackBonus": 30,
-      "crushAttackBonus": 30,
-      "stabDefenceBonus": 30,
-      "slashDefenceBonus": 30,
-      "crushDefenceBonus": 30,
-      "rangedDefenceBonus": 30,
-      "strengthBonus": 30,
-      "prayerBonus": 30
+      "stabDefenceBonus": 45,
+      "slashDefenceBonus": 45,
+      "crushDefenceBonus": 45,
+      "rangedDefenceBonus": 45,
+      "strengthBonus": 45
     }
   },
   {
