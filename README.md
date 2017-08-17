@@ -6,7 +6,7 @@ ItemParser parses this configuration file into clean and readable JSON that repr
 
 ### How do I get set up? ###
 
-Make sure that you're about to process the right file format. The below formatting was consistent for emulations even past 2010.
+Make sure that you're about to process the right file format. The below formatting was popular for emulations even into the early 2010s. If your item configuration file does not look like this, it's likely that another loading structure has already been implemented.
 
     item = 35	Excalibur	This_used_to_belong_to_King_Arthur.	160.036754819048	160.036754819048	181.443095635579	20	29	-2	0	0	0	3	2	1	0	25	0
 
