@@ -2,7 +2,7 @@ package com.github.dustinkieler.itemparser;
 
 import java.io.File;
 
-import com.github.dustinkieler.itemparser.items.ItemParser;
+import com.github.dustinkieler.itemparser.items.ItemCfgParser;
 import com.github.dustinkieler.itemparser.json.ItemToJsonConverter;
 
 /**
@@ -21,7 +21,7 @@ public class Main {
      * @param args is unused
      */
     public static void main(String[] args) {
-        ItemParser itemParser = new ItemParser(new File("item.cfg"));
+        ItemCfgParser itemParser = new ItemCfgParser(new File("item.cfg"));
         itemParser.parseItemConfig();
         ItemToJsonConverter.convert(itemParser.getItems(), new File("item.json"));
     }

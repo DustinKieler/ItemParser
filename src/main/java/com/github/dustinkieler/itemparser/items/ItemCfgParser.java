@@ -18,7 +18,7 @@ import java.util.Queue;
  * @author Dustin Kieler
  *
  */
-public class ItemParser {
+public class ItemCfgParser {
     
     // This file follows the format of a typical item.cfg file of the early RS2 emulations.
     private File configurationFileToParse;
@@ -30,7 +30,7 @@ public class ItemParser {
      * Creates a new ItemParser that will parse the given {@code configurationFileToparse}.
      * @param configurationFileToParse The {@link File} containing the item configurations to parse.
      */
-    public ItemParser(final File configurationFileToParse) {
+    public ItemCfgParser(final File configurationFileToParse) {
         this.configurationFileToParse = configurationFileToParse;
         this.items = new ArrayList<>();
     }
@@ -126,13 +126,13 @@ public class ItemParser {
                     .build();
             
             if (!bonuses.isEmpty()) {
-                System.out.println("-----There were not 20 elements for this item!-----");
+                System.out.println("-----There were over 20 elements for this item!-----");
             }
             
             return itemBonuses;
             
         } catch (NoSuchElementException nsee) {
-            System.out.println("The queue is already empty! Not enough elements!");
+            System.out.println("-----There were under 20 elements for this item!-----");
             nsee.printStackTrace();
             return null;
         }
