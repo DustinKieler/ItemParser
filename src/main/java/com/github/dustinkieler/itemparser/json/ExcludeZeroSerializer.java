@@ -29,9 +29,11 @@ public class ExcludeZeroSerializer implements JsonSerializer<ItemBonuses> {
     public JsonElement serialize(ItemBonuses bonusesObject, Type type, JsonSerializationContext context) {
         final Gson gson = new Gson();
         JsonObject jObj = (JsonObject) gson.toJsonTree(bonusesObject);
+        
         jObj.entrySet().stream()
-                            .filter(entry -> entry.getValue().getAsInt() != 0)
-                            .collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue()));
+                       .filter(entry -> entry.getValue().getAsInt() != 0)
+                       .collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue()));
+        
         // We are serializing only the inner bonuses object here of the Item object, so we check if it's empty.
         // JSON won't serialize nulls, so we'll return null if all bonuses are 0.
         if (jObj.entrySet().isEmpty())
