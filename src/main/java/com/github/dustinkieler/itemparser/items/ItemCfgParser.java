@@ -60,18 +60,15 @@ public class ItemCfgParser {
             LOGGER.info("Done!");
             
         } catch (IOException ioex) {
-            LOGGER.fatal("Failed to open the file!");
-            ioex.printStackTrace();
+            LOGGER.fatal("Failed to open the file!", ioex);
         } catch (Exception ex) {
-            LOGGER.fatal("Uncaught exception occurred at top level!");
-            ex.printStackTrace();
+            LOGGER.fatal("Uncaught exception occurred at top level!", ex);
         } finally {
             try {
                 if (null != configFileReader)
                     configFileReader.close();
             } catch (IOException ioex) {
-                LOGGER.error("Failed to close the reader!");
-                ioex.printStackTrace();
+                LOGGER.error("Failed to close the reader!", ioex);
             }
         }
         
@@ -99,8 +96,7 @@ public class ItemCfgParser {
                                 .build();
             items.add(item);
         } catch (NumberFormatException numberFormatException) {
-            LOGGER.error("There was an issue converting data types.");
-            numberFormatException.printStackTrace();
+            LOGGER.error("There was an issue converting data types.", numberFormatException);
         }        
     }
     
@@ -135,8 +131,7 @@ public class ItemCfgParser {
             return itemBonuses;
             
         } catch (NoSuchElementException nsee) {
-        	LOGGER.warn("-----There were under 20 elements for this item!-----");
-            nsee.printStackTrace();
+        	LOGGER.warn("-----There were under 20 elements for this item!-----", nsee);
             return null;
         }
     }

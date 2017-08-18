@@ -6,6 +6,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -18,6 +21,8 @@ import com.github.dustinkieler.itemparser.items.ItemBonuses;
  *
  */
 public class ItemToJsonConverter {
+	
+	private static final Logger LOGGER = LogManager.getLogger(ItemToJsonConverter.class);
     
     /**
      * Converts an {@link ArrayList} of {@link Item}s and outputs the JSON
@@ -34,13 +39,19 @@ public class ItemToJsonConverter {
                               .disableHtmlEscaping()
                               .setPrettyPrinting()
                               .create();
-        BufferedWriter fileWriter;
+        BufferedWriter fileWriter = null;
         try {
             fileWriter = new BufferedWriter(new FileWriter(outputFile));
             fileWriter.write(gson.toJson(itemsToConvert));
-            fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+        	LOGGER.fatal("Failed to convert to JSON.", ex);
+        } finally {
+        	try {
+        		if (null != fileWriter)
+        			fileWriter.close();
+        	} catch (IOException ioe) {
+        		LOGGER.error("Failed to close the file writer.", ioe);
+        	}
         }
     }
 
