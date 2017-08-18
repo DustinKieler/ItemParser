@@ -29,7 +29,7 @@ public class ItemCfgParser {
     // The items created from parsing the configuration file.
     private ArrayList<Item> items;
     
-    private static final Logger LOGGER = LogManager.getLogger(ItemCfgParser.class.getName());
+    private static final Logger LOGGER = LogManager.getLogger(ItemCfgParser.class);
     
     /**
      * Creates a new ItemParser that will parse the given {@code configurationFileToparse}.
@@ -52,27 +52,25 @@ public class ItemCfgParser {
             configFileReader = new BufferedReader(new FileReader(configurationFileToParse));
             String itemLine = configFileReader.readLine();
             
-            System.out.println("Parsing line: " + itemLine);
-            while (null != itemLine) {                
+            while (null != itemLine) {
+                LOGGER.info("Parsing line: " + itemLine);
                 parseItem(itemLine);
                 itemLine = configFileReader.readLine();
-                if (null != itemLine)
-                    System.out.println("Parsing line: " + itemLine);
-            }          
-            System.out.println("Done!");
+            }
+            LOGGER.info("Done!");
             
         } catch (IOException ioex) {
-            System.out.println("Failed to open the file!");
+            LOGGER.fatal("Failed to open the file!");
             ioex.printStackTrace();
         } catch (Exception ex) {
-            System.out.println("Uncaught exception occurred at top level!");
+            LOGGER.fatal("Uncaught exception occurred at top level!");
             ex.printStackTrace();
         } finally {
             try {
                 if (null != configFileReader)
                     configFileReader.close();
             } catch (IOException ioex) {
-                System.out.println("Failed to close the reader!");
+                LOGGER.error("Failed to close the reader!");
                 ioex.printStackTrace();
             }
         }
@@ -101,7 +99,7 @@ public class ItemCfgParser {
                                 .build();
             items.add(item);
         } catch (NumberFormatException numberFormatException) {
-            System.out.println("There was an issue converting data types.");
+            LOGGER.error("There was an issue converting data types.");
             numberFormatException.printStackTrace();
         }        
     }
@@ -131,13 +129,13 @@ public class ItemCfgParser {
                     .build();
             
             if (!bonuses.isEmpty()) {
-                System.out.println("-----There were over 20 elements for this item!-----");
+                LOGGER.warn("-----There were over 20 elements for this item!-----");
             }
             
             return itemBonuses;
             
         } catch (NoSuchElementException nsee) {
-            System.out.println("-----There were under 20 elements for this item!-----");
+        	LOGGER.warn("-----There were under 20 elements for this item!-----");
             nsee.printStackTrace();
             return null;
         }
