@@ -21,8 +21,8 @@ import com.github.dustinkieler.itemparser.items.ItemBonuses;
  *
  */
 public class ItemToJsonConverter {
-	
-	private static final Logger LOGGER = LogManager.getLogger(ItemToJsonConverter.class);
+    
+    private static final Logger LOGGER = LogManager.getLogger(ItemToJsonConverter.class);
     
     /**
      * Converts an {@link ArrayList} of {@link Item}s and outputs the JSON
@@ -44,14 +44,14 @@ public class ItemToJsonConverter {
             fileWriter = new BufferedWriter(new FileWriter(outputFile));
             fileWriter.write(gson.toJson(itemsToConvert));
         } catch (Exception ex) {
-        	LOGGER.fatal("Failed to convert to JSON.", ex);
+            LOGGER.fatal("Failed to convert to JSON.", ex);
         } finally {
-        	try {
-        		if (null != fileWriter)
-        			fileWriter.close();
-        	} catch (IOException ioe) {
-        		LOGGER.error("Failed to close the file writer.", ioe);
-        	}
+            try {
+                if (null != fileWriter)
+                    fileWriter.close();
+            } catch (IOException ioe) {
+                LOGGER.error("Failed to close the file writer.", ioe);
+            }
         }
     }
 
