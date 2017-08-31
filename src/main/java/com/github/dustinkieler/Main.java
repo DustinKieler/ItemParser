@@ -21,9 +21,9 @@ public class Main {
      * @param args is unused
      */
     public static void main(String[] args) {
-        ItemCfgParser itemParser = new ItemCfgParser(new File("item.cfg"));
+        ItemCfgParser itemParser = new ItemCfgParser(new File("resources/item.cfg"));
         itemParser.parseItemConfig();
-        ItemToJsonConverter.convert(itemParser.getItems(), new File("item.json"));
+        ItemToJsonConverter.convert(itemParser.getItems(), new File("resources/item.json"));
     }
 
 }
