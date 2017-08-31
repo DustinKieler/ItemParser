@@ -270,4 +270,69 @@ public class ItemBonuses {
         this.prayerBonus = builder.prayerBonus;
     }
 
+    /**
+     * Returns a unique hashcode for this {@code ItemBonuses} based on all bonuses.
+     * @return The hashcode for this {@code ItemBonuses}.
+     */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + crushAttackBonus;
+		result = prime * result + crushDefenceBonus;
+		result = prime * result + magicAttackBonus;
+		result = prime * result + magicDefenceBonus;
+		result = prime * result + prayerBonus;
+		result = prime * result + rangedAttackBonus;
+		result = prime * result + rangedDefenceBonus;
+		result = prime * result + slashAttackBonus;
+		result = prime * result + slashDefenceBonus;
+		result = prime * result + stabAttackBonus;
+		result = prime * result + stabDefenceBonus;
+		result = prime * result + strengthBonus;
+		return result;
+	}
+
+    /**
+     * Returns whether or not this {@code ItemBonuses} object is equal to the passed in {@link Object}.
+     * If the {@code ItemBonuses} objects have fully equal bonuses, they are equal.
+     * @param obj The {@link Object} to compare to.
+     * @return True if this {@code ItemBonuses} is equal to {@code obj}, false otherwise.
+     */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ItemBonuses other = (ItemBonuses) obj;
+		if (crushAttackBonus != other.crushAttackBonus)
+			return false;
+		if (crushDefenceBonus != other.crushDefenceBonus)
+			return false;
+		if (magicAttackBonus != other.magicAttackBonus)
+			return false;
+		if (magicDefenceBonus != other.magicDefenceBonus)
+			return false;
+		if (prayerBonus != other.prayerBonus)
+			return false;
+		if (rangedAttackBonus != other.rangedAttackBonus)
+			return false;
+		if (rangedDefenceBonus != other.rangedDefenceBonus)
+			return false;
+		if (slashAttackBonus != other.slashAttackBonus)
+			return false;
+		if (slashDefenceBonus != other.slashDefenceBonus)
+			return false;
+		if (stabAttackBonus != other.stabAttackBonus)
+			return false;
+		if (stabDefenceBonus != other.stabDefenceBonus)
+			return false;
+		if (strengthBonus != other.strengthBonus)
+			return false;
+		return true;
+	}
+
 }

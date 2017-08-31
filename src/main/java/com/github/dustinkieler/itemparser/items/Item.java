@@ -10,7 +10,7 @@ public class Item {
     
     private final int itemID;
     private final String name;
-    private final String description;
+	private final String description;
     private final int shopPrice;
     private final int lowAlchPrice;
     private final int highAlchPrice;
@@ -203,5 +203,38 @@ public class Item {
         this.highAlchPrice = builder.highAlchPrice;
         this.bonuses = builder.bonuses;
     }
+    
+    /**
+     * Returns a unique hashcode for this {@code Item} based on the item ID.
+     * @return The hashcode for this {@code Item}.
+     */
+    @Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + itemID;
+		return result;
+	}
+
+    /**
+     * Returns whether or not this {@code Item} is equal to the passed in {@link Object}.
+     * Past the basic reference checks, the item ID determines equality.
+     * If the {@code Item}s have the same itemID, then they are equal.
+     * @param obj The {@link Object} to compare to.
+     * @return True if this {@code Item} is equal to {@code obj}, false otherwise.
+     */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Item other = (Item) obj;
+		if (itemID != other.itemID)
+			return false;
+		return true;
+	}
 
 }
