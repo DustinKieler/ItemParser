@@ -1,3 +1,5 @@
+<!--Due to the small size of this project, and since I'm currently using Maven professionally, I will use it for this project.-->
+<!--If I create another small project/tool, I'll look into using Gradle to learn a new build management tool along the way.-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
