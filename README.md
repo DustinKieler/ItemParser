@@ -11,6 +11,7 @@ Make sure that you're about to process the right file format. The below formatti
     item = 35	Excalibur	This_used_to_belong_to_King_Arthur.	160.036754819048	160.036754819048	181.443095635579	20	29	-2	0	0	0	3	2	1	0	25	0
 
  - ItemParser will raise exceptions and create a null Item if the line it parses does not contain the exact amount of expected tokens. Each item you have should be in the above format with exactly 20 tokens (character strings separated by spaces). If a problem is encountered, run the program with the console attached to see exception output.
+ - Decimal points on the item's shop and alchemy prices will be truncated.
 
 Move your configuration file (named **item.cfg**) into your projects main directory, and execute the Main class. An **item.json** file will be created in the main directory, which contains your beautiful JSON!
 
